@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Khmer OS Battambang", "Hanuman", sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 412px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.image-banner {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1.15;
+    background-image: url('https://imagizer.imageshack.com/img922/1967/7CC9gT.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 25px;
+}
+
+.form-container {
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #dadde1;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #1c1e21;
+    outline: none;
+    background-color: #f5f6f7;
+}
+
+.input-field::placeholder {
+    color: #8d949e;
+}
+
+.input-field:focus {
+    border-color: #1877f2;
+    background-color: #fff;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.submit-btn:hover {
+    background-color: #0073e6;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+    color: #0084ff;
+    font-size: 14px;
+}
